@@ -1,0 +1,110 @@
+.header {
+  position: relative;
+  min-height: 80px;
+  width: 100%;
+  background-color: var(--primary-color);
+  box-shadow: var(--secondary-color);
+}
+
+.header-wrapper {
+  border: 1px solid red;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 4rem;
+}
+
+.logo {
+  height: auto;
+  width: 350px;
+}
+
+.logo a {
+  font-size: 1.5rem;
+  font-family: "Roboto Mono", monospace;
+  color: var(--secondary-color);
+  font-weight: bold;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.navigation a {
+  font-family: "Roboto Mono", monospace;
+  color: var(--secondary-color);
+  font-size: 1.5rem;
+  font-weight: 500;
+  transition: all 0.3s ease-in;
+}
+
+.navigation a:hover span {
+  transition: all 0.3s ease-in;
+  color: var(--secondary-color);
+}
+
+.navigation a:hover span {
+  color: var(--secondary-color);
+}
+
+.navigation a span {
+  color: var(--dark-white-color);
+}
+
+.primary-button {
+  background-color: transparent;
+  color: var(--secondary-color);
+  border: 2px solid var(--secondary-color);
+  border-radius: 0.5rem;
+  padding: 1rem 1.5rem;
+  cursor: pointer;
+  transition: all 0.3s ease-in;
+}
+
+.primary-button:hover {
+  background: linear-gradient(to bottom, #0b192e, #65feda);
+  color: var(--primary-color);
+  border: 2px solid var(--secondary-color);
+}
+
+.open-btn {
+  display: none;
+}
+
+.close-btn {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .close-btn {
+    display: block;
+    font-size: 3rem;
+    color: var(--secondary-color);
+    cursor: pointer;
+  }
+
+  .navigation {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    flex-direction: column;
+    height: 100vh;
+    width: 70%;
+    background-color: var(--dark-white-color);
+  }
+
+  .open-btn {
+    display: block;
+  }
+
+  .open-btn #open {
+    font-size: 3rem;
+    color: var(--secondary-color);
+    cursor: pointer;
+  }
+}
