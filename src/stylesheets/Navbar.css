@@ -1,5 +1,5 @@
 .header {
-  position: relative;
+  position: sticky;
   min-height: 7rem;
   width: 100%;
   background-color: var(--primary-color);
@@ -24,7 +24,7 @@
   font-size: 1.5rem;
   font-family: "Roboto Mono", monospace;
   color: var(--secondary-color);
-  font-weight: bold;
+  font-weight: bolder;
 }
 
 .navigation {
@@ -34,16 +34,11 @@
 }
 
 .navigation a {
-  font-family: "Roboto Mono", monospace;
   color: var(--secondary-color);
   font-size: 1.5rem;
   font-weight: 500;
+  gap: 1.5rem;
   transition: all 0.3s ease-in;
-}
-
-.navigation a:hover span {
-  transition: all 0.3s ease-in;
-  color: var(--secondary-color);
 }
 
 .navigation a:hover span {
@@ -55,7 +50,7 @@
 }
 
 .primary-button {
-  background-color: transparent;
+  background-color: var(--primary-color);
   color: var(--secondary-color);
   border: 2px solid var(--secondary-color);
   border-radius: 0.5rem;
@@ -65,8 +60,7 @@
 }
 
 .primary-button:hover {
-  background: linear-gradient(to bottom, #0b192e, #65feda);
-  color: var(--primary-color);
+  background: var(--hover-color);
   border: 2px solid var(--secondary-color);
 }
 

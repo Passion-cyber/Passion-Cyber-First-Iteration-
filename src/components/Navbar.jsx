@@ -11,19 +11,13 @@ const Navbar = () => {
     <div className="header">
       <div className="header-wrapper">
         <div className="logo">
-          <Link to="/">
-            Passion-<span>Cyber</span>
-          </Link>
+          <Link to="/"> Passion-<span>Cyber</span></Link>
         </div>
         <nav className="navigation">
           {navItem.map((item, index) => (
-            <Link key={index} to={item.path}>
-              {item.number} <span>{item.text}</span>
-            </Link>
+        <Link key={index} to={item.path}>{item.number}<span>{item.text}</span></Link>
           ))}
-          <Link to="/resume">
-            <button className="primary-button">Resume</button>
-          </Link>
+          <Link to="/resume"><button className="primary-button">Resume</button></Link>
         </nav>
         <div
           className="nav-toggle"

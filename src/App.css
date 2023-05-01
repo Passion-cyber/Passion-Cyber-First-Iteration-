@@ -10,6 +10,7 @@
 :root {
   --primary-color: #0b192e;
   --secondary-color: #65feda;
+  --hover-color: #2f3c50;
   --dark-white-color: #cdd7f6;
   --darker-white-color: #8892b0;
 }
@@ -20,6 +21,8 @@ html {
   /* font-family: "Roboto Mono", monospace; */
   background-color: var(--primary-color);
   font-size: 10px;
+  max-width: 1440px;
+  margin: auto;
   overflow-x: hidden;
 }
 
@@ -31,4 +34,5 @@ html {
 a {
   text-decoration: none;
   font-family: "Roboto Mono", monospace;
+  font-weight: 600;
 }
