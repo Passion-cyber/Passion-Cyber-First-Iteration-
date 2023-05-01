@@ -24,17 +24,11 @@ html {
 }
 
 .paddings {
-  padding: 1.5rem;
+  padding: 1.5rem auto;
+  margin: auto;
 }
 
 a {
   text-decoration: none;
   font-family: "Roboto Mono", monospace;
-}
-
-.flex-center {
-  display: flex;
-  gap: 1rem;
-  justify-content: center;
-  flex-direction: column;
 }
