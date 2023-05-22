@@ -1,10 +1,10 @@
 import React from "react";
-import Heading from "./Heading";
-import Anchor from "./Anchor";
+import Heading from "../../components/Heading"
+import Anchor from "../../components/Anchor"
 
 const About = () => {
   return (
-    <section>
+    <section className="container">
       <div className="content-section">
         <Heading number={"01"} text={"About Me"} empty_div={""} />
         <p className="first-paragraph">
@@ -15,8 +15,7 @@ const About = () => {
         </p>
         <p className="second-paragraph">
           Fast-forward to today, and I’ve had the privilege of working at{" "}
-          <Anchor
-            path={"/https://open.spotify.com/search/Nf%20Dreams"}
+          <Anchor path={"/https://open.spotify.com/search/Nf%20Dreams"}
             text={"an advertising angency"}
           />
           , a start-up, a huge corporation, and a student-led design studio. My

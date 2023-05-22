@@ -4,11 +4,11 @@ import Button from "./Button";
 
 
 const HeroSection = () => {
-  const customStyles = {
-    padding: '2rem 2.5rem',
-  };
+  // const customStyles = {
+  //   padding: '2rem 4.5rem',
+  // };
   return (
-    <section className="container">
+    <section className="hero-container">
       <div className="hero-container">
         <h2 className="intro">Hi, my name is </h2>
         <h1>
@@ -19,7 +19,7 @@ const HeroSection = () => {
           designing) exceptional digital experiences. Currently, I’m focused on
           building accessible, human-centered products at <a href="https://www.genesystechhub.com/" target="_blank"  rel="noreferrer" className="upstatement">Genesys</a>.
         </p>
-        <Link to="/resume"><Button styles={customStyles} text="Checkout my course!"/></Link>
+        <Link to="/resume"><Button text="Check out my course!"/></Link>
       </div>
     </section>
   );

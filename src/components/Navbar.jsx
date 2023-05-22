@@ -13,9 +13,9 @@ const Navbar = () => {
           <Link to="/"> Passion-<span>Cyber</span></Link>
         </div>
         <nav className={`navigation ${navopen && "ovelay mobile"}`}>
-          {navItem.map((item, index) => (
+          {navItem.map(({path, number, text}, index) => (
             
-        <Link key={index} to={item.path}>{item.number}<span>{item.text}</span></Link>
+        <Link key={index} to={path}>{number}<span>{text}</span></Link>
           ))}
           <Link to="/resume"><Button text="Resume"/></Link>
         </nav>
