@@ -1,0 +1,69 @@
+.socials-container .left-socials {
+  position: fixed;
+  left: 50px;
+  top: 250px;
+}
+
+.left-socials .individual-links {
+  display: block;
+}
+
+.left-socials .individual-links a {
+  font-size: 2rem;
+  color: var(--darker-white-color);
+  transition: all 0.4s ease-in;
+}
+
+.left-socials .individual-links a:hover {
+  display: inline-block;
+  margin: 2rem 0;
+  color: var(--secondary-color);
+  transform: translateY(15px);
+}
+
+.left-socials .individual-links a .link-tags {
+  /* transform: rotate(-90deg); */
+  transform: translateY(15px);
+  margin: 0 2rem;
+  transition: all 0.3s ease-in;
+}
+/*
+
+.left-socials a .link-tags:hover {
+  transform: translateY(-10px);
+}
+
+.socials-container .left-socials .link-line {
+  width: 1px;
+  height: 200px;
+  background-color: var(--darker-white-color);
+} */
+
+/* right socials */
+.socials-container .right-socials {
+  position: fixed;
+  right: -10vh;
+  top: 60vh;
+  transform: rotate(90deg);
+}
+
+.right-socials a {
+  font-size: 1.3rem;
+  font-weight: 400;
+  letter-spacing: 2px;
+  color: var(--darker-white-color);
+  transition: all 0.3s ease-in;
+}
+
+.right-socials a:hover {
+  color: var(--secondary-color);
+}
+
+.right-socials .link-line {
+  display: inline;
+  width: 1px;
+  height: 200px;
+  background-color: var(--darker-white-color);
+  transform: rotate(90deg);
+  border: 1px solid red;
+}

@@ -1,0 +1,10 @@
+.global-links{
+    color: var(--secondary-color);
+    padding-bottom: .5rem;
+    transition: all 0.3s ease-in;
+    
+}
+
+.global-links:hover{
+    text-decoration: 1px solid var(--secondary-color);
+}
