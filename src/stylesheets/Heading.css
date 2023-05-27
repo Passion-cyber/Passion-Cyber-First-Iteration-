@@ -4,6 +4,7 @@
   justify-content: space-between;
   gap: 2rem;
   font-family: "Roboto Mono", monospace;
+  margin-bottom: 2.5rem;
 }
 
 .heading-container .number {
@@ -13,13 +14,33 @@
 }
 
 .heading-container .heading-text {
-  font-size: 2rem;
+  font-size: 3rem;
   color: var(--dark-white-color);
-  font-weight: 600;
+  font-weight: bolder;
 }
 
 .heading-container .empty_div {
   height: 1px;
-  width: 20rem;
+  width: 30rem;
   background-color: var(--darker-white-color);
+}
+
+@media (max-width: 768px) {
+  .heading-container {
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .heading-container .number {
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+
+  .heading-container .heading-text {
+    font-size: 2rem;
+  }
+
+  .heading-container .empty_div {
+    width: 20rem;
+  }
 }

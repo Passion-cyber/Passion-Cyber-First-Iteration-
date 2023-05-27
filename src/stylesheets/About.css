@@ -1,0 +1,136 @@
+.about-container {
+  max-width: 1000px;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin: 0 auto;
+  padding-top: 7.5rem;
+  padding: 0 auto;
+  border: 1px solid red;
+}
+
+.about-global-container {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+}
+
+.about-container .hero-description {
+  color: var(--darker-white-color);
+  font-size: 1.5rem;
+  font-weight: 600;
+  width: 500px;
+  line-height: 1.5;
+  margin-bottom: 2rem;
+}
+
+
+.content-section {
+    flex: 2;
+  }
+  
+  .image-container {
+    flex: 1;
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .image-container .image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    z-index: 50;
+    filter: saturate(200%) hue-rotate(45deg);
+    transition: all 0.2s ease-in;
+  }
+  
+  .image-container .image::after {
+    position: absolute;
+    content: "";
+    left: 15%;
+    top: 15%;
+    height: 300px;
+    width: 300px;
+    background-color: transparent;
+    border: 3px solid var(--secondary-color);
+    border-radius: 10px;
+    z-index: 11;
+    transition: all 0.2s ease-in;
+  }
+  
+  .image-container:hover img {
+    filter: none;
+    transform: translate(-5px, -5px);
+  }
+  
+  .image-container:hover .image::after {
+    transform: translate(5px, 5px);
+  }
+
+.technologies .tech-skills {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  border: 1px solid red;
+  list-style: none;
+  padding: 2rem 0;
+}
+
+.technologies .individual-technologies {
+  color: var(--darker-white-color);
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 2;
+  margin-left: 2rem;
+}
+
+/* play-button */
+
+.individual-technologies span {
+  position: relative;
+  width: 10px;
+  height: 10px;
+  background-color: var(--primary-color);
+}
+
+.individual-technologies span:before {
+  content: "";
+  position: absolute;
+  top: 15%;
+  left: -20px;
+  transform: translateX(-50%, -50%);
+  width: 0;
+  height: 0;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 10px solid var(--secondary-color);
+}
+
+/* End of play button */
+
+@media screen and (max-width: 768px) {
+  .about-container {
+    max-width: 600px;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 7.5rem 3rem;
+    margin: 0 auto;
+    align-items: center;
+    border: 1px solid red;
+  }
+
+  .about-global-container {
+    max-width: 600px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 2rem;
+  }
+}

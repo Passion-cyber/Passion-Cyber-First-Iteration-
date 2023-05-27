@@ -1,9 +1,13 @@
 .header {
-  position: sticky;
-  min-height: 7rem;
+  position: fixed;
+  top: 0;
+  height: 10rem;
   width: 100%;
   background-color: var(--primary-color);
-  /* box-shadow: var(--secondary-color); */
+  display: flex;
+  align-items: center;
+  z-index: 99;
+  border: 1px solid red;
 }
 
 .header-wrapper {
@@ -70,6 +74,7 @@
     text-align: center;
     transform: translateX(100%);
     transition: transform 0.3s ease-in;
+    z-index: 10;
   }
 
   .navigation.mobile {

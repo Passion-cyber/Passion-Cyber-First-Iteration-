@@ -7,7 +7,7 @@ import "./App.css";
 function App() {
   return (
     <div className="App-container">
-      <div classname="overlay"></div>
+      <div className="overlay"></div>
       <Router>
         <Navbar />
         <Routes>

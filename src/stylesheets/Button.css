@@ -7,7 +7,7 @@
   word-spacing: 5px;
   font-size: 1.5rem;
   cursor: pointer;
-  transition: all 0.3s ease-in;
+  transition: all 0.2s ease-in;
 }
 
 .primary-btn:hover {

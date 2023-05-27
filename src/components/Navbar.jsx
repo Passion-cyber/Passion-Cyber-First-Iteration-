@@ -12,7 +12,7 @@ const Navbar = () => {
         <div className="logo">
           <Link to="/"> Passion-<span>Cyber</span></Link>
         </div>
-        <nav className={`navigation ${navopen && "ovelay mobile"}`}>
+        <nav className={`navigation ${navopen && "overlayOpen mobile"}`}>
           {navItem.map(({path, number, text}, index) => (
             
         <Link key={index} to={path}>{number}<span>{text}</span></Link>
