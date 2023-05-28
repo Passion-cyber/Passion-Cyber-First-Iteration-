@@ -48,7 +48,6 @@ const About = () => {
             </ul>
           </div>
         </div>
-
         <div className="image-container">
           <div className="image">
             <img src={profile} alt="profile-display" />

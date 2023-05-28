@@ -6,16 +6,17 @@ import "./App.css";
 
 function App() {
   return (
-    <div className="App-container">
-      <div className="overlay"></div>
+    <>
       <Router>
         <Navbar />
-        <Routes>
-          <Route path="/" element={<Homepage />} />
-          <Route path="*" element={<Errorpage />} />
-        </Routes>
+        <div className="global-container">
+          <Routes>
+            <Route path="/" element={<Homepage />} />
+            <Route path="*" element={<Errorpage />} />
+          </Routes>
+        </div>
       </Router>
-    </div>
+    </>
   );
 }
 
