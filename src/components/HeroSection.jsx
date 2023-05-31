@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import Button from "./Button";
 
 const HeroSection = () => {
-  const customStylesr = {
+  const customStyles = {
     padding: "2rem 4.5rem",
   };
 
@@ -28,7 +28,7 @@ const HeroSection = () => {
         .
       </p>
       <Link to="/resume">
-        <Button style={customStylesr} text="Check Out My Resume!" />
+        <Button style={customStyles} text="Check Out My Resume!" />
       </Link>
     </section>
   );

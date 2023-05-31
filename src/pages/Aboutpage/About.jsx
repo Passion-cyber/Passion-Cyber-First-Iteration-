@@ -7,7 +7,7 @@ import "../../stylesheets/About.css";
 
 const About = () => {
   return (
-    <section className="about-container">
+    <section id="/about" className="about-container">
       <Heading number={"01"} text={"About Me"} empty_div={""} />
       <div className="about-global-container">
         <div className="content-section">
@@ -21,8 +21,10 @@ const About = () => {
           <p className="hero-description">
             Fast-forward to today, and I’ve had the privilege of working at{" "}
             <Anchor
-              path={"/https://open.spotify.com/search/Nf%20Dreams"}
+              href={"https://react-icons.github.io/react-icons/"}
               text={"an advertising angency"}
+              target={"_blank"}
+              rel={"noreferrer"}
             />
             , a start-up, a huge corporation, and a student-led design studio.
             My main focus these days is building accessible, inclusive products
@@ -40,7 +42,6 @@ const About = () => {
               {technologies.map((item, index) => {
                 return (
                   <li className="individual-technologies" key={index}>
-                    
                     <span></span> {item.text}
                   </li>
                 );

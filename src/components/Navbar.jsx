@@ -1,15 +1,19 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { navItem } from "../ultilities/ultilities";
+import { HashLink } from "react-router-hash-link";
 import "../stylesheets/Navbar.css";
 import Button from "./Button";
 
 const Navbar = () => {
   const [navopen, setNavOpen] = useState(false);
 
+  const customStyles = {
+    padding: "1.5rem 4.5rem",
+  };
   return (
     <section className="header">
-      <div className={`abs ${navopen && "open"} `}></div>
+      <div className={`overlay ${navopen && "open"} `}></div>
       <div className="header-wrapper">
         <div className="logo">
           <Link to="/">
@@ -19,13 +23,13 @@ const Navbar = () => {
         </div>
         <nav className={`navigation ${navopen && "mobile"}`}>
           {navItem.map(({ path, number, text }, index) => (
-            <Link key={index} to={path}>
+            <HashLink key={index} smooth to={path}>
               {number}
               <span>{text}</span>
-            </Link>
+            </HashLink>
           ))}
           <Link to="/resume">
-            <Button text="Resume" />
+            <Button style={navopen ? customStyles : null} text="Resume" />
           </Link>
         </nav>
 

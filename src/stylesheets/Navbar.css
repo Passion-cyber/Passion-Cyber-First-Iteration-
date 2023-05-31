@@ -8,7 +8,6 @@
   align-items: center;
   z-index: 99;
   overflow-x: hidden;
-  box-shadow: 0 0 5px 2px var(--box-shadow-color);
 }
 
 .header-wrapper {
@@ -34,7 +33,7 @@
 .navigation {
   display: flex;
   align-items: center;
-  gap: 1.5rem;
+  gap: 2.5rem;
 }
 
 .navigation a {
@@ -60,7 +59,7 @@
   display: none;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 934px) {
   .navigation {
     position: fixed;
     top: 0;
@@ -117,7 +116,7 @@
     transition: all 0.3s linear;
   }
 
-  .abs {
+  .overlay {
     position: fixed;
     opacity: 0;
     bottom: 0;
@@ -132,7 +131,7 @@
     transition: opacity 0.3s ease-in-out;
   }
 
-  .abs.open {
+  .overlay.open {
     opacity: 1;
   }
 

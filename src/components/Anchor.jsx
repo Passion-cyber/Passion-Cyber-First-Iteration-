@@ -1,10 +1,12 @@
-import {Link} from "react-router-dom"
-import "../stylesheets/Anchor.css"
+import "../stylesheets/Anchor.css";
 
-const Anchor = ({text, path}) => {
+const Anchor = ({ text, link, target, rel }) => {
   return (
-   <Link path={path} className='global-links'>{text}</Link>
-  )
-}
+    <a href={link} target={target} rel={rel} className="global-links">
+      {text}
+    </a>
+  );
+};
 
-export default Anchor
+export default Anchor;
+  

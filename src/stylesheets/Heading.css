@@ -23,7 +23,7 @@
 .heading-container .empty_div {
   height: 1px;
   width: 30rem;
-  background-color: var(--darker-white-color);
+  background-color: var(--hover-color);
 }
 
 @media (max-width: 768px) {
@@ -42,6 +42,6 @@
   }
 
   .heading-container .empty_div {
-    width: 20rem;
+    width: 15rem;
   }
 }

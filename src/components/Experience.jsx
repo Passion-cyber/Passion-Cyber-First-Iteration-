@@ -27,11 +27,11 @@ const Experience = () => {
       </div>
       <div className="right-experience">
         <div className="individual-exps">
-            <h2 className="heading">{heading} <span><Anchor text={link}/></span></h2>
-            <p className="text">{text}</p>
+            <h2>{heading} <span><Anchor text={link}/></span></h2>
+            <p >{text}</p>
             {
              lists.map((list,index) => {
-                 return(<li className="individual-list" key={index}> <span></span> {list}</li>)
+                 return(<li key={index}> <span></span> {list}</li>)
                      })
             }
         </div>

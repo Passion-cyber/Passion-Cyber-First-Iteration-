@@ -1,0 +1,21 @@
+.contact-container {
+  position: relative;
+  max-width: 750px;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin: 0 auto;
+  padding: 9rem 0;
+  text-align: center;
+}
+
+.contact-container h2 {
+  font-size: 7rem;
+  color: var(--dark-white-color);
+  font-weight: bolder;
+  font-family: "Inter", sans-serif;
+  text-align: center;
+  margin: 0 auto;
+}
