@@ -1,32 +1,19 @@
 import React from 'react'
 import {FiGithub } from "react-icons/fi"
-import {GrInstagram } from "react-icons/gr"
-import {FaTwitter, FaCodepen } from "react-icons/fa"
 import {FiLinkedin } from "react-icons/fi"
+import {BsTwitter, BsFacebook } from "react-icons/bs"
 import "../stylesheets/Socials.css"
 
 const LeftSocials = () => {
   return (
    <section>
      <div className="left-socials">
-          <div className="individual-links">
-            <a href="https://github.com/Passion-cyber" target='_blank' rel="noreferrer"> <FiGithub className='link-tags'/></a>
-            </div>
-            <div className="individual-links">
-            <a href="https://github.com/Passion-cyber" target='_blank' rel="noreferrer"> <GrInstagram className='link-tags'/></a>
-            </div>
-            <div className="individual-links">
-            <a href="https://github.com/Passion-cyber" target='_blank' rel="noreferrer"> <FaTwitter className='link-tags'/></a>
-            </div>
-            <div className="individual-links">
-            <a href="https://github.com/Passion-cyber" target='_blank' rel="noreferrer"> <FiLinkedin className='link-tags'/></a>
-            </div>
-            <div className="individual-links">
-            <a href="https://github.com/Passion-cyber" target='_blank' rel="noreferrer"> <FaCodepen className='link-tags'/></a>
-            </div>
-            <div className="individual-links">
-            <span className="link-line"></span>
-            </div>
+     <div className="footer-inner">       
+            <a href="https://github.com/Passion-cyber" rel="noreferrer" target="_blank"> <FiGithub/> </a> 
+            <a href="https://twitter.com/Dede_edum" rel="noreferrer" target="_blank"> <BsTwitter/> </a>
+            <a href="www.linkedin.com/in/ibelachi-franklyn-767322246" rel="noreferrer" target="_blank"> <FiLinkedin/> </a>
+            <a href="https://www.facebook.com/ibelachi.chinedu" rel="noreferrer" target="_blank"> <BsFacebook/> </a>
+        </div>
        
         </div>
    </section>

@@ -1,7 +1,7 @@
 import React from "react";
 import "../stylesheets/Contact.css";
-// import Heading from "./Heading";
 import Button from "./Button";
+
 
 const Contact = () => {
   const customStyles = {
@@ -9,15 +9,18 @@ const Contact = () => {
   };
   return (
     <section className="contact-container">
-      {/* <Heading number={"05"} text={"Whats next?"} /> */}
       <div className="contact-inner">
+        <h1>05. Whats Next?</h1>
         <h2>Get In Touch</h2>
         <p>
-          I am looking for great collaborations, let’s discuss and build
-          something togethe
+          I am looking forward to great collaborations, let’s discuss and build
+          something together. Have any project in your mind? Let’s discuss the
+          project I am looking forward to great collaborations, let’s discuss
+          and build something together. Have any project in your mind? Let’s
+          discuss the project
         </p>
-        <span>Have any project in your mind? Let’s discuss the project</span>
         <Button style={customStyles} text={"Send a mail"} />
+
       </div>
     </section>
   );

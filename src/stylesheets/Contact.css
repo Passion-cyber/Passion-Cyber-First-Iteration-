@@ -4,18 +4,43 @@
   width: 100%;
   display: flex;
   align-items: flex-start;
-  flex-direction: column;
   gap: 1.5rem;
   margin: 0 auto;
   padding: 9rem 0;
   text-align: center;
 }
 
+.contact-inner {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  padding: 0 1rems;
+}
+
+.contact-inner h1 {
+  color: var(--secondary-color);
+  word-spacing: 5px;
+  font-size: 1.7rem;
+}
+
 .contact-container h2 {
-  font-size: 7rem;
+  font-size: 6rem;
   color: var(--dark-white-color);
   font-weight: bolder;
   font-family: "Inter", sans-serif;
   text-align: center;
-  margin: 0 auto;
+  margin: 2rem auto;
 }
+
+.contact-container p {
+  color: var(--darker-white-color);
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1.5;
+  margin-bottom: 2rem;
+}
+
+

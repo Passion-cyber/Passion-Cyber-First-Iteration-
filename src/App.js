@@ -3,6 +3,7 @@ import Homepage from "./pages/Homepage/Homepage";
 import Errorpage from "./pages/Errorpage/Errorpage";
 import Navbar from "./components/Navbar";
 import "./App.css";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
             <Route path="*" element={<Errorpage />} />
           </Routes>
         </div>
+        <Footer/>
       </Router>
     </>
   );

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { navItem } from "../ultilities/ultilities";
-import { HashLink } from "react-router-hash-link";
+// import { HashLink } from 'react-router-hash-link';
 import "../stylesheets/Navbar.css";
 import Button from "./Button";
 
@@ -23,10 +23,10 @@ const Navbar = () => {
         </div>
         <nav className={`navigation ${navopen && "mobile"}`}>
           {navItem.map(({ path, number, text }, index) => (
-            <HashLink key={index} smooth to={path}>
+            <Link key={index} to={path}>
               {number}
               <span>{text}</span>
-            </HashLink>
+            </Link>
           ))}
           <Link to="/resume">
             <Button style={navopen ? customStyles : null} text="Resume" />
