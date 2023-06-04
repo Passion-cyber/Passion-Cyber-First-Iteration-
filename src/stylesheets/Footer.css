@@ -5,10 +5,10 @@ footer {
 @media (max-width: 768px) {
   footer {
     display: block;
-    max-width: 900px;
+    max-width: 420px;
     width: 100%;
     margin: 0 auto;
-    padding-top: 3rem;
+    padding: 2rem 0;
   }
 
   .footer-inner {
@@ -24,9 +24,10 @@ footer {
     text-decoration: none;
     color: var(--darker-white-color);
     background-color: var(--modal-color);
-    font-size: 2rem;
-    padding: 2rem;
+    font-size: 1.5rem;
+    padding: 1rem;
     border-radius: 50%;
+    justify-content: center;
     transition: all 0.2s ease-in;
   }
 

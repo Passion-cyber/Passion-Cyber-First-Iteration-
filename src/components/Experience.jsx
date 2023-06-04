@@ -6,7 +6,7 @@ import Anchor from "./Anchor";
 
 
 const Experience = () => {
-    const [data, setData] = useState(info);
+    const [data, SetData] = useState(info);
     const [value, setValue] = useState(0);
     const {heading, link, text, lists} = data[value]
 

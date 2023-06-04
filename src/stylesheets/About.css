@@ -6,8 +6,7 @@
   flex-direction: column;
   gap: 1.5rem;
   margin: 0 auto;
-  padding-top: 7.5rem;
-  padding: 0 auto;
+  padding: 7.5rem 0;
 }
 
 .about-global-container {
@@ -113,19 +112,15 @@
 
 @media screen and (max-width: 768px) {
   .about-container {
-    max-width: 400px;
+    border: 1px solid var(--primary-color);
+    max-width: 420px;
     width: 100%;
-    gap: 1.5rem;
-    margin: 0 auto;
-    padding-top: 2rem;
+    padding: 2rem 0;
   }
 
   .about-global-container {
-    display: flex;
     align-items: center;
     margin: 0 auto;
-    gap: 2rem;
-    flex-wrap: wrap;
   }
 
   .about-container .hero-description {
@@ -136,48 +131,4 @@
     line-height: 1.5;
     margin: 2rem auto;
   }
-
-  /*Image resizing and responsiveness */
-  .image-container {
-    flex: 1;
-    position: relative;
-    width: 100%;
-    height: 100%;
-    isolation: isolate;
-    overflow: hidden;
-  }
-
-  .image-container .image img {
-    width: 200px;
-    height: 200px;
-    object-fit: cover;
-    border-radius: 10px;
-    z-index: 50;
-    filter: saturate(200%) hue-rotate(45deg);
-    transition: all 0.2s ease-in;
-  }
-
-  .image-container .image::after {
-    position: absolute;
-    content: "";
-    left: 15%;
-    top: 15%;
-    height: 300px;
-    width: 300px;
-    background-color: transparent;
-    border: 3px solid var(--secondary-color);
-    border-radius: 10px;
-    z-index: -1;
-    transition: all 0.2s ease-in;
-  }
-
-  .image-container:hover img {
-    filter: none;
-    transform: translate(-5px, -5px);
-  }
-
-  .image-container:hover .image::after {
-    transform: translate(5px, 5px);
-  }
-  /*end of image resizing and responsiveness */
 }

@@ -99,3 +99,10 @@
   font-weight: 600;
   font-family: "Roboto Mono", monospace;
 }
+
+@media (max-width: 768px) {
+  .noteworthy-container {
+    max-width: 420px;
+    padding: 2rem 0;
+  }
+}

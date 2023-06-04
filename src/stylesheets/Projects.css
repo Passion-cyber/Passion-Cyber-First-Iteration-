@@ -8,3 +8,10 @@
   margin: 0 auto;
   padding: 7.5rem 0;
 }
+
+@media (max-width: 768px) {
+  .projects-container {
+    max-width: 420px;
+    padding: 2rem 0;
+  }
+}

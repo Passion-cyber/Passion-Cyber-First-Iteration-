@@ -38,7 +38,8 @@
   }
 
   .heading-container .heading-text {
-    font-size: 2rem;
+    font-size: 1.5rem;
+    font-weight: bolder;
   }
 
   .heading-container .empty_div {

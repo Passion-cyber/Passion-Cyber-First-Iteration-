@@ -21,7 +21,6 @@
 
 body,
 html {
-  z-index: 90;
   font-family: "Inter", sans-serif;
   background-color: var(--primary-color);
   font-size: 10px;
@@ -54,7 +53,6 @@ A total of four(4) z-indexs, 2 for the body
 /* width */
 ::-webkit-scrollbar {
   width: 5px;
-  height: 10px;
 }
 
 /* Track */
@@ -67,3 +65,9 @@ A total of four(4) z-indexs, 2 for the body
   background: var(--darker-white-color);
   border-radius: 100px;
 }
+
+/* @media (max-width: 768px) {
+  section {
+    margin: 2rem auto;
+  }
+} */

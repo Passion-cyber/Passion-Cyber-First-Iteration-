@@ -4,7 +4,7 @@ import About from "../Aboutpage/About";
 import Experience from "../../components/Experience";
 import NoteWorthy from "../../components/NoteWorthy";
 import Contact from "../../components/Contact";
-// import Projects from "../../components/Projects";
+import Projects from "../../components/Projects";
 
 // import LeftSocials from "../../components/LeftSocials";
 // import RightSocials from "../../components/RightSocials";
@@ -17,7 +17,7 @@ const Homepage = () => {
       <LeftSocials /> */}
       <About />
       <Experience />
-      {/* <Projects/> */}
+      <Projects />
       <NoteWorthy />
       <Contact />
     </div>
