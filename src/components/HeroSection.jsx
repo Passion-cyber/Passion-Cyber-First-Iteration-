@@ -1,6 +1,6 @@
 import "../stylesheets/HeroSection.css";
 // import { Link } from "react-router-dom";
-import pdffile from "../assets/documents/resume.pdf"
+import pdffile from "../assets/documents/resume.pdf";
 import Button from "./Button";
 
 const HeroSection = () => {
@@ -15,18 +15,26 @@ const HeroSection = () => {
         Ibelachi Chinedu. <br /> <span>I build things for the web.</span>
       </h1>
       <p className="hero-description">
-        I’m a software engineer specializing in building (and occasionally
-        designing) exceptional digital experiences. Currently, I’m focused on
-        building accessible, human-centered products at{" "}
+        I’m a software engineer specializing in building exceptional digital
+        experiences. Currently, I’m an Intern of{" "}
+        <a
+          href="https://www.genesystechhub.com/learnable"
+          target="_blank"
+          rel="noreferrer"
+          className="upstatement"
+        >
+          Learnable 22
+        </a>{" "}
+        at{" "}
         <a
           href="https://www.genesystechhub.com/"
           target="_blank"
           rel="noreferrer"
           className="upstatement"
         >
-          Genesys
+          Genesys  
         </a>
-        .
+        Tech Hub Enugu. In general I enjoy creating things that live on the internet!
       </p>
       <a href={pdffile} target="_blank" rel="noreferrer">
         <Button style={customStyles} text="Check Out My Resume!" />

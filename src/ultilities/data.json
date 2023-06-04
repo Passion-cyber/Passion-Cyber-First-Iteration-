@@ -1,10 +1,10 @@
 [
     {
         "order": 1,
-        "heading": "Lead Engineer",
-        "link": "@ Upstatement",
+        "heading": "Junior FrontEnd Engineer",
+        "link": "@ Zuri Team",
         "text": "May 2018 - Present",
-        "button": "Upstatement",
+        "button": "Zuri",
         "lists": [
             "Deliver high-quality, robust production code for a diverse array of projects for clients including Harvard Business School, Everytown for Gun Safety, Pratt Institute, Koala Health, Vanderbilt University, The 19th News, and more",
             "Work alongside creative directors to lead the research, development, and architecture of technical solutions to fulfill business requirements",
@@ -14,10 +14,10 @@
     },
     {
         "order": 2,
-        "heading": "UI Engineer Co-op ",
-        "link": "@ Apple",
+        "heading": "FrontEnd Intern ",
+        "link": "@ Genesys",
         "text": "July - December 2017",
-        "button": "Apple",
+        "button": "Genesys",
         
         "lists": [
             "Developed and styled interactive web applications for Apple Music using Ember and SCSS",
@@ -29,7 +29,7 @@
     {
         "order": 3,
         "heading": "Developer",
-        "link": "@ Scout Studio",
+        "link": "@ SKUDULABS",
         "text": "Spring 2016 & 2017",
         "button": "SKUDULABS",
         "lists": [
@@ -39,10 +39,10 @@
     },
     {
         "order": 4,
-        "heading": "Software Engineer Co-op ",
-        "link": "@ Starry",
+        "heading": "Software Engineer ",
+        "link": "@ StackOverflow",
         "text": "July - December 2016",
-        "button": "Starry",
+        "button": "StackOverflow",
         "lists": [
             "Engineered and improved major features of Starry's customer-facing Android web app using ES6, Handlebars, Backbone, Marionette, and CSS",
             "Proposed and implemented scalable solutions to issues identified with cloud services and applications responsible for communicating with the Starry Station internet router",
@@ -52,9 +52,9 @@
     {
         "order": 5,
         "heading": "Creative Technologist Co-op ",
-        "link": "@ MullenLowe",
+        "link": "@ Google",
         "text": "July - December 2015",
-        "button": "MullenLowe",
+        "button": "Google",
         "lists": [
             "Developed, maintained, and shipped production code for client websites primarily using HTML, CSS, Sass, JavaScript, and jQuery",
             "Performed quality assurance tests on various sites to ensure cross-browser compatibility and mobile responsiveness",

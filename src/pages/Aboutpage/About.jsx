@@ -1,6 +1,5 @@
 import React from "react";
 import Heading from "../../components/Heading";
-import Anchor from "../../components/Anchor";
 import profile from "../../assets/images/profileimage.jpeg";
 import { technologies } from "../../ultilities/technologies";
 import "../../stylesheets/About.css";
@@ -12,28 +11,35 @@ const About = () => {
       <div className="about-global-container">
         <div className="content-section">
           <p className="hero-description">
-            Hello! My name is Brittany and I enjoy creating things that live on
-            the internet. My interest in web development started back in 2012
-            when I decided to try editing custom Tumblr themes — turns out
-            hacking together a custom reblog button taught me a lot about HTML &
-            CSS!
+            Hello! My name is Ibelachi Chinedu Franklyn. I have this passion for
+            everything coding, and I derive joy creating a sense of experience
+            and satisfaction when creating beautiful looking web pages and
+            bringing beautiful designs to life, looking forward to growing in
+            knowledge of the tech industry. My interest in web development
+            started back in 2018 when I built my first web page with HTML and
+            CSS which opened my eyes to a greater world of endless
+            possibilities.
           </p>
           <p className="hero-description">
-            Fast-forward to today, and I’ve had the privilege of working at{" "}
-            <Anchor
-              href={"https://react-icons.github.io/react-icons/"}
-              text={"an advertising angency"}
-              target={"_blank"}
-              rel={"noreferrer"}
-            />
-            , a start-up, a huge corporation, and a student-led design studio.
-            My main focus these days is building accessible, inclusive products
-            and digital experiences at Upstatement for a variety of clients.
+            Fast-forward to today, and I’ve had the privilege of interning at{" "}
+            <a
+              href="https://www.genesystechhub.com/"
+              target="_blank"
+              rel="noreferrer"
+              className="upstatement"
+            >
+              Genesys
+            </a> Tech Hub Enugu, 
+            one of the most prominent start-ups in the South east Nigeria, a
+            huge corporation, focused on impacting in young techies and
+            entrepreneurs. Although not working with any Tech company at the
+            moment my main focus these days is building accessible, inclusive
+            products and digital experiences for a variety of users.
           </p>
-          <p className="hero-description">
+          {/* <p className="hero-description">
             I also recently launched a course that covers everything you need to
             build a web app with the Spotify API using Node & React
-          </p>
+          </p> */}
           <span className="hero-description">
             Here are a few technologies I’ve been working with recently:
           </span>
