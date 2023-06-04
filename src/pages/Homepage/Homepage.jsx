@@ -4,20 +4,15 @@ import About from "../Aboutpage/About";
 import Experience from "../../components/Experience";
 import NoteWorthy from "../../components/NoteWorthy";
 import Contact from "../../components/Contact";
-import Projects from "../../components/Projects";
-
-// import LeftSocials from "../../components/LeftSocials";
-// import RightSocials from "../../components/RightSocials";
+// import Projects from "../../components/Projects";
 
 const Homepage = () => {
   return (
     <div>
       <HeroSection />
-      {/* <RightSocials />
-      <LeftSocials /> */}
       <About />
       <Experience />
-      <Projects />
+      {/* <Projects /> */}
       <NoteWorthy />
       <Contact />
     </div>

@@ -4,19 +4,24 @@ import Errorpage from "./pages/Errorpage/Errorpage";
 import Navbar from "./components/Navbar";
 import "./App.css";
 import Footer from "./components/Footer";
+import RightSocials from "./components/RightSocials";
+import LeftSocials from "./components/LeftSocials";
 
 function App() {
   return (
     <>
       <Router>
         <Navbar />
+        <LeftSocials />
         <div className="global-container">
           <Routes>
             <Route path="/" element={<Homepage />} />
             <Route path="*" element={<Errorpage />} />
           </Routes>
         </div>
-        <Footer/>
+        <RightSocials />
+
+        <Footer />
       </Router>
     </>
   );

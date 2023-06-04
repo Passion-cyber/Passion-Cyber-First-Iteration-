@@ -2,7 +2,8 @@
 import Anchor from "./Anchor";
 import { BiLinkExternal } from "react-icons/bi";
 import { FiGithub } from "react-icons/fi";
-import Headshot from "../assets/profileimage.jpeg";
+import Headshot from "../../assets/images/profileimage.jpeg";
+
 import "../stylesheets/ProjectCard.css";
 
 const ProjectCard = () => {

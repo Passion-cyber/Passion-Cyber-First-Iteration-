@@ -4,6 +4,7 @@ import { navItem } from "../ultilities/ultilities";
 // import { HashLink } from 'react-router-hash-link';
 import "../stylesheets/Navbar.css";
 import Button from "./Button";
+import pdffile from "../assets/documents/resume.pdf";
 
 const Navbar = () => {
   const [navopen, setNavOpen] = useState(false);
@@ -28,9 +29,9 @@ const Navbar = () => {
               <span>{text}</span>
             </Link>
           ))}
-          <Link to="/resume">
+          <a href={pdffile} target="_blank"  rel="noreferrer">
             <Button style={navopen ? customStyles : null} text="Resume" />
-          </Link>
+          </a>
         </nav>
 
         <div className="toggle-menu" onClick={() => setNavOpen(!navopen)}>

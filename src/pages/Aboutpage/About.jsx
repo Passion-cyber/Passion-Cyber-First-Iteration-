@@ -1,7 +1,7 @@
 import React from "react";
 import Heading from "../../components/Heading";
 import Anchor from "../../components/Anchor";
-import profile from "../../assets/profileimage.jpeg";
+import profile from "../../assets/images/profileimage.jpeg";
 import { technologies } from "../../ultilities/technologies";
 import "../../stylesheets/About.css";
 

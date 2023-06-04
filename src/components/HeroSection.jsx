@@ -1,5 +1,6 @@
 import "../stylesheets/HeroSection.css";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
+import pdffile from "../assets/documents/resume.pdf"
 import Button from "./Button";
 
 const HeroSection = () => {
@@ -27,9 +28,9 @@ const HeroSection = () => {
         </a>
         .
       </p>
-      <Link to="/resume">
+      <a href={pdffile} target="_blank" rel="noreferrer">
         <Button style={customStyles} text="Check Out My Resume!" />
-      </Link>
+      </a>
     </section>
   );
 };

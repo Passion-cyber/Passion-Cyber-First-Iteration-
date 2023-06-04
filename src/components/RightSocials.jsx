@@ -13,7 +13,7 @@ const RightSocials = () => {
         >
           chineduibelachi@gmail.com
         </a>
-        <div className="link-line"></div>
+        <div></div>
       </div>
     </section>
   );

@@ -17,6 +17,6 @@ export const navItem = [
   {
     path: "/contact",
     text: "Contact",
-    number: "04 .",
+    number: "04. ",
   },
 ];
