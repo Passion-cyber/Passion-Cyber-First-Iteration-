@@ -2,7 +2,7 @@ import React from 'react'
 import {FiGithub } from "react-icons/fi"
 import {FiLinkedin } from "react-icons/fi"
 import {BsTwitter, BsFacebook, BsInstagram } from "react-icons/bs"
-import "../stylesheets/Socials.css"
+import "./Socials.css"
 
 const LeftSocials = () => {
   return (

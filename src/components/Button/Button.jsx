@@ -1,4 +1,4 @@
-import "../stylesheets/Button.css";
+import "./Button.css";
 const Button = ({ style, text }) => {
   return (
     <button style={style} className="primary-btn">

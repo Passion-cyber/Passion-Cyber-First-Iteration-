@@ -1,5 +1,5 @@
 import React from "react";
-import "../stylesheets/Socials.css";
+import "./Socials.css";
 
 const RightSocials = () => {
   return (

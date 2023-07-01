@@ -1,10 +1,11 @@
 import React from "react";
-import HeroSection from "../../components/HeroSection";
-import About from "../Aboutpage/About";
-import Experience from "../../components/Experience";
-import NoteWorthy from "../../components/NoteWorthy";
-import Contact from "../../components/Contact";
-// import Projects from "../../components/Projects";
+import {
+  HeroSection,
+  About,
+  Experience,
+  NoteWorthy,
+  Contact,
+} from "../../components";
 
 const Homepage = () => {
   return (
@@ -12,7 +13,6 @@ const Homepage = () => {
       <HeroSection />
       <About />
       <Experience />
-      {/* <Projects /> */}
       <NoteWorthy />
       <Contact />
     </div>

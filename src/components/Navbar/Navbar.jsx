@@ -1,10 +1,9 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import { navItem } from "../ultilities/ultilities";
-// import { HashLink } from 'react-router-hash-link';
-import "../stylesheets/Navbar.css";
-import Button from "./Button";
-import pdffile from "../assets/documents/resume.pdf";
+import { navItem } from "../../ultilities/ultilities";
+import "./Navbar.css";
+import Button from "../../components/Button/Button";
+import { resumeLink } from "../../components";
 
 const Navbar = () => {
   const [navopen, setNavOpen] = useState(false);
@@ -14,11 +13,15 @@ const Navbar = () => {
   };
   return (
     <section className="header">
-      <div className={`overlay ${navopen && "open"} `}></div>
+      <div
+        onClick={() => {
+          setNavOpen(false);
+        }}
+        className={`overlay ${navopen && "open"} `}
+      ></div>
       <div className="header-wrapper">
         <div className="logo">
           <Link to="/">
-            {" "}
             Passion-<span>Cyber</span>
           </Link>
         </div>
@@ -29,7 +32,7 @@ const Navbar = () => {
               <span>{text}</span>
             </Link>
           ))}
-          <a href={pdffile} target="_blank"  rel="noreferrer">
+          <a href={resumeLink} target="_blank" rel="noreferrer">
             <Button style={navopen ? customStyles : null} text="Resume" />
           </a>
         </nav>

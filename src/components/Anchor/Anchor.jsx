@@ -1,4 +1,4 @@
-import "../stylesheets/Anchor.css";
+import "./Anchor.css";
 
 const Anchor = ({ text, link, target, rel }) => {
   return (

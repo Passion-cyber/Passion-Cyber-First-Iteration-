@@ -1,8 +1,8 @@
 import React from "react";
 import { FiGithub } from "react-icons/fi";
 import { ImFileEmpty } from "react-icons/im";
-import Anchor from "./Anchor";
-import "../stylesheets/NoteWorthy.css";
+import { Anchor } from "../../components";
+import "./NoteWorthy.css";
 
 const NoteWorthyCards = () => {
   return (

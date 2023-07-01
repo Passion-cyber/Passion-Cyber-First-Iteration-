@@ -1,7 +1,5 @@
-import "../stylesheets/HeroSection.css";
-// import { Link } from "react-router-dom";
-import pdffile from "../assets/documents/resume.pdf";
-import Button from "./Button";
+import "./HeroSection.css";
+import { resumeLink, Button } from "../../components";
 
 const HeroSection = () => {
   const customStyles = {
@@ -32,11 +30,12 @@ const HeroSection = () => {
           rel="noreferrer"
           className="upstatement"
         >
-          Genesys  
+          Genesys
         </a>
-        Tech Hub Enugu. In general I enjoy creating things that live on the internet!
+        Tech Hub Enugu. In general I enjoy creating things that live on the
+        internet!
       </p>
-      <a href={pdffile} target="_blank" rel="noreferrer">
+      <a href={resumeLink} target="_blank" rel="noreferrer">
         <Button style={customStyles} text="Check Out My Resume!" />
       </a>
     </section>

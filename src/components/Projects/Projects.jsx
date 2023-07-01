@@ -1,7 +1,7 @@
 import React from "react";
 import Heading from "./Heading";
 import ProjectCard from "./ProjectCard";
-import "../stylesheets/Projects.css";
+import "./Projects.css";
 
 const Projects = () => {
   return (

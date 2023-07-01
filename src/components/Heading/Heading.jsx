@@ -1,5 +1,5 @@
 import React from "react";
-import "../stylesheets/Heading.css";
+import "./Heading.css";
 
 const Heading = ({ number, text, empty_div }) => {
   return (

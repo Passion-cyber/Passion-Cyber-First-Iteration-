@@ -1,7 +1,5 @@
-import React from "react";
-import NoteWorthyCards from "./NoteWorthyCards";
-import "../stylesheets/NoteWorthy.css";
-import Heading from "./Heading";
+import { NoteWorthyCards, Heading } from "../../components";
+import "./NoteWorthy.css";
 
 const NoteWorthy = () => {
   return (

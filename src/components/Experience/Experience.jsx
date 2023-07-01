@@ -1,8 +1,7 @@
 import React, {useState} from "react";
-import "../stylesheets/Experience.css";
-import Heading from "../components/Heading";
-import info from "../ultilities/data.json"
-import Anchor from "./Anchor";
+import "./Experience.css";
+import {Heading, Anchor} from "../../components";
+import info from "../../ultilities/data.json"
 
 
 const Experience = () => {

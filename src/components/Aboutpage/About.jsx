@@ -1,8 +1,8 @@
 import React from "react";
-import Heading from "../../components/Heading";
+import {Heading} from "../../components";
 import profile from "../../assets/images/profileimage.jpeg";
 import { technologies } from "../../ultilities/technologies";
-import "../../stylesheets/About.css";
+import "./About.css";
 
 const About = () => {
   return (

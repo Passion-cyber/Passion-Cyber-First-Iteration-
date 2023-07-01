@@ -1,11 +1,13 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Homepage from "./pages/Homepage/Homepage";
-import Errorpage from "./pages/Errorpage/Errorpage";
-import Navbar from "./components/Navbar";
 import "./App.css";
-import Footer from "./components/Footer";
-import RightSocials from "./components/RightSocials";
-import LeftSocials from "./components/LeftSocials";
+import {
+  Navbar,
+  Footer,
+  RightSocials,
+  LeftSocials,
+  Homepage,
+  Errorpage,
+} from "./components";
 
 function App() {
   return (

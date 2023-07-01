@@ -1,6 +1,6 @@
 import React from "react";
-import "../stylesheets/Contact.css";
-import Button from "./Button";
+import "./Contact.css";
+import { Button } from "../../components";
 
 const Contact = () => {
   const customStyles = {
