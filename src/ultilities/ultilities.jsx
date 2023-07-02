@@ -23,7 +23,7 @@ export const navItem = [
 
 export const notes = [
   {
-    id: 123,
+    id: "123",
     href: "https://github.com/Passion-cyber/Standardized-Spotify-Clone",
     externalLink: "https://spotify-clone-nine-tau.vercel.app/",
     title: "Standardized Spotify Clone",
@@ -32,7 +32,7 @@ export const notes = [
     lists: ["HTML", "CSS", "React JS"],
   },
   {
-    id: 234,
+    id: "234",
     href: "https://github.com/learnable-2022/KMH-FE",
     externalLink: "https://kalmlydemo.vercel.app/",
     title: "KalmlyHealth",
@@ -41,12 +41,11 @@ export const notes = [
     lists: ["HTML", "CSS", "React JS", "Socket.io", "NodeJs"],
   },
   {
-    id: 567,
+    id: "234",
     href: "https://github.com/learnable-2022/KMH-FE",
     externalLink: "https://kalmlydemo.vercel.app/",
-    title: "KalmlyHealth",
-    description:
-      "A Mental Healthcare App where users can get help throughtherapy sessions with Healthcare professionals",
+    title: "COMIC ZONE",
+    description: "An online storealthcare App where users can get help throughtherapy sessioe for purchasing comic bookstore",
     lists: ["HTML", "CSS", "React JS", "Socket.io", "NodeJs"],
   },
 ];

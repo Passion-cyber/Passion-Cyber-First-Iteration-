@@ -1,17 +1,15 @@
-import React from "react";
 import { FiGithub } from "react-icons/fi";
 import { ImFileEmpty } from "react-icons/im";
 import { HiOutlineExternalLink } from "react-icons/hi";
-import { NoteWorthyAnchor } from "..";
-import { notes } from "../../ultilities";
+import { notes, NoteWorthyAnchor } from "../../components";
 import "./NoteWorthy.css";
 
 const NoteWorthyCard = () => {
   return (
     <div className="noteworthy-inner">
-      {notes.map(({ href, externalLink, title, description, lists }, index) => {
+      {notes.map(({ href, externalLink, title, description, lists, id }) => {
         return (
-          <div key={index} className="individual-notes">
+          <div key={id} className="individual-notes">
             <div className="links">
               <ImFileEmpty className="file" />
               <div className="links-inner">

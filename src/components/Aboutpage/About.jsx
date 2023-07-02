@@ -6,7 +6,13 @@ import "./About.css";
 
 const About = () => {
   return (
-    <section id="About" className="about-container">
+    <section
+      id="About"
+      className="about-container"
+      data-aos="fade-up"
+      data-aos-duration="1000"
+      data-aos-once="true"
+    >
       <Heading number={"01"} text={"About Me"} empty_div={""} />
       <div className="about-global-container">
         <div className="content-section">
@@ -37,7 +43,7 @@ const About = () => {
             accessible, inclusive products and digital experiences for a variety
             of users.
           </p>
-        
+
           <span className="hero-description">
             Here are a few technologies I’ve been working with recently:
           </span>

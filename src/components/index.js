@@ -14,6 +14,7 @@ import NoteWorthy from "../components/NoteWorthy/NoteWorthy";
 import NoteWorthyCard from "./NoteWorthy/NoteWorthyCard";
 import Contact from "../components/Contact/Contact";
 import NoteWorthyAnchor from "./NoteWorthy/NoteWorthyAnchor/NoteWorthyAnchor";
+import { notes } from "../ultilities";
 const resumeLink =
   "https://drive.google.com/file/d/1owqLmub8AI3l3VE6RJPTj1ZTMjVQnj1N/view?usp=sharing";
 
@@ -34,5 +35,6 @@ export {
   Anchor,
   NoteWorthyCard,
   NoteWorthyAnchor,
+  notes,
   resumeLink,
 };

@@ -9,12 +9,12 @@ const Navbar = () => {
 
   return (
     <section className="header">
-      <div
+      {/* <div
         onClick={() => {
           setNavOpen(false);
         }}
         className={`overlay ${navopen && "open"} `}
-      ></div>
+      ></div> */}
       <div className="header-wrapper">
         <div className="logo">
           <Link to="/">

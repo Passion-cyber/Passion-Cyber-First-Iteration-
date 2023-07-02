@@ -5,13 +5,11 @@ const NoteWorthy = () => {
   return (
     <section id="Noteworthy" className="noteworthy-container">
       <Heading number={"04"} text={"Other Noteworthy Projects "} />
-      {/* <div className="noteworthy-inner"> */}
+      <div className="noteworthy-inner">
         <NoteWorthyCard />
         <NoteWorthyCard />
         <NoteWorthyCard />
-        {/* <NoteWorthyCard />
-        <NoteWorthyCard /> */}
-      {/* </div> */}
+      </div>
     </section>
   );
 };
