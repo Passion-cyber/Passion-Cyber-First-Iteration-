@@ -13,17 +13,16 @@ const HeroSection = () => {
         Ibelachi Chinedu. <br /> <span>I build things for the web.</span>
       </h1>
       <p className="hero-description">
-        I’m a software engineer specializing in building exceptional digital
-        experiences. Currently, I’m an Intern of{" "}
-        <a
+        A Software Developer specializing in building exceptional digital
+        experiences and cross functional web applications. Currently i'm an
+        intern at the<a
           href="https://www.genesystechhub.com/learnable"
           target="_blank"
           rel="noreferrer"
           className="upstatement"
-        >
-          Learnable 22
-        </a>{" "}
-        at{" "}
+        >Learnable 22
+        </a>
+        internship program championed by
         <a
           href="https://www.genesystechhub.com/"
           target="_blank"
@@ -32,8 +31,7 @@ const HeroSection = () => {
         >
           Genesys
         </a>
-        Tech Hub Enugu. In general I enjoy creating things that live on the
-        internet!
+        Tech Hub Enugu.
       </p>
       <a href={resumeLink} target="_blank" rel="noreferrer">
         <Button style={customStyles} text="Check Out My Resume!" />

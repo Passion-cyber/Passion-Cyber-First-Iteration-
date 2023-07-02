@@ -41,6 +41,7 @@
   font-size: 1.4rem;
   font-weight: 600;
   gap: 2rem;
+  cursor: pointer;
   transition: all 0.3s ease-in;
 }
 

@@ -29,13 +29,13 @@
 }
 
 /* Individual-notes content styling */
-
 .individual-notes {
   background-color: var(--modal-color);
   padding: 2rem;
   cursor: pointer;
   border-radius: 5px;
   transition: all 0.2s ease-in;
+  border: 1px solid red;
 }
 
 .individual-notes:hover {
@@ -50,21 +50,18 @@
 }
 
 .individual-notes .links > * {
-  font-size: 3rem;
+  font-size: 2rem;
+}
+
+.individual-notes .links .links-inner {
+  display: flex;
+  gap: 1rem;
+  /* border : 1px solid red; */
 }
 
 .individual-notes .links .file {
   color: var(--secondary-color);
-}
-
-.individual-notes .links .git {
-  color: var(--dark-white-color);
-  font-size: 2rem;
-  transition: all 0.2s ease-in;
-}
-
-.individual-notes .links .git:hover {
-  color: var(--secondary-color);
+  font-size: 3rem;
 }
 
 .individual-notes h3 {
@@ -88,6 +85,8 @@
 }
 
 .individual-notes footer {
+  background-color: red;
+  width: 100%;
   display: flex;
   align-items: center;
   gap: 2rem;

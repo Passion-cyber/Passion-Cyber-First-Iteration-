@@ -1,12 +1,17 @@
 import "./Anchor.css";
 
-const Anchor = ({ text, link, target, rel }) => {
+const Anchor = ({ href, target, rel, children, style }) => {
   return (
-    <a href={link} target={target} rel={rel} className="global-links">
-      {text}
+    <a
+      href={href}
+      target={target}
+      rel={rel}
+      style={style}
+      className="global-links"
+    >
+      {children}
     </a>
   );
 };
 
 export default Anchor;
-  

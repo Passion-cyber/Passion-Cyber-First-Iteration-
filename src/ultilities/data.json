@@ -1,12 +1,12 @@
-[
+ [
     {
         "order": 1,
-        "heading": "Junior FrontEnd Engineer",
-        "link": "@ Zuri Team",
-        "text": "May 2018 - Present",
-        "button": "Zuri",
+        "heading": "Front-end Engineering Intern",
+        "link": "@ Upskill Community",
+        "text": "October 2021 - July 2022",
+        "button": "Upskill",
         "lists": [
-            "Deliver high-quality, robust production code for a diverse array of projects for clients including Harvard Business School, Everytown for Gun Safety, Pratt Institute, Koala Health, Vanderbilt University, The 19th News, and more",
+            "Developed responsive web pages that provided an optimal user experience across different devices, including desktops, tablets, and mobile devices.",
             "Work alongside creative directors to lead the research, development, and architecture of technical solutions to fulfill business requirements",
             "Collaborate with designers, project managers, and other engineers to transform creative concepts into production realities for clients and stakeholders",
             "Provide leadership within engineering department through close collaboration, knowledge shares, and mentorship"
@@ -14,11 +14,10 @@
     },
     {
         "order": 2,
-        "heading": "FrontEnd Intern ",
-        "link": "@ Genesys",
-        "text": "July - December 2017",
+        "heading": "Front-end Engineering Intern ",
+        "link": "@ Genesys Tech Hub",
+        "text": "November 2022 - July 2023",
         "button": "Genesys",
-        
         "lists": [
             "Developed and styled interactive web applications for Apple Music using Ember and SCSS",
             "Built and shipped the Apple Music Extension for Facebook Messenger leveraging third-party and internal API integratio",

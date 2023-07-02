@@ -1,22 +1,25 @@
 import React from "react";
 import "./Contact.css";
-import { Button } from "../../components";
 
 const Contact = () => {
-  const customStyles = {
-    padding: "2.5rem 4.5rem",
-  };
   return (
-    <section className="contact-container">
+    <section id="Contact" className="contact-container">
       <div className="contact-inner">
-        <h1>05. Whats Next?</h1>
-        <h2>Get In Touch</h2>
+        <h1>Contact Me</h1>
+        <h2>Let's Get In Touch</h2>
         <p>
-          I am looking forward to great collaborations, and would be glad to
-          discuss and build something together. Have any project in your mind?
-          Let’s discuss the project.
+          I am actively looking forward to great collaborations, and would be
+          glad to discuss and build something together. Have any project in
+          mind? Let’s talk about it.
         </p>
-        <Button style={customStyles} text={"Send a mail"} />
+        <a
+          href="mailto:chineduibelachi@gmail.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="footer-anchor"
+        >
+          Send Me a Mail
+        </a>
       </div>
     </section>
   );

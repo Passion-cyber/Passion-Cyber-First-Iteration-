@@ -1,16 +1,12 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
 import { navItem } from "../../ultilities/ultilities";
+import { Link } from 'react-scroll';
+
 import "./Navbar.css";
-import Button from "../../components/Button/Button";
-import { resumeLink } from "../../components";
 
 const Navbar = () => {
   const [navopen, setNavOpen] = useState(false);
 
-  const customStyles = {
-    padding: "1.5rem 4.5rem",
-  };
   return (
     <section className="header">
       <div
@@ -27,14 +23,12 @@ const Navbar = () => {
         </div>
         <nav className={`navigation ${navopen && "mobile"}`}>
           {navItem.map(({ path, number, text }, index) => (
-            <Link key={index} to={path}>
+            <Link key={index} to={path} duration={3000}>
               {number}
               <span>{text}</span>
             </Link>
           ))}
-          <a href={resumeLink} target="_blank" rel="noreferrer">
-            <Button style={navopen ? customStyles : null} text="Resume" />
-          </a>
+
         </nav>
 
         <div className="toggle-menu" onClick={() => setNavOpen(!navopen)}>

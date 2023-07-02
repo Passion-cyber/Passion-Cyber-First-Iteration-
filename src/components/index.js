@@ -11,8 +11,9 @@ import About from "../components/Aboutpage/About";
 import Experience from "../components/Experience/Experience";
 import Anchor from "../components/Anchor/Anchor";
 import NoteWorthy from "../components/NoteWorthy/NoteWorthy";
-import NoteWorthyCards from "../components/NoteWorthy/NoteWorthyCards";
+import NoteWorthyCard from "./NoteWorthy/NoteWorthyCard";
 import Contact from "../components/Contact/Contact";
+import NoteWorthyAnchor from "./NoteWorthy/NoteWorthyAnchor/NoteWorthyAnchor";
 const resumeLink =
   "https://drive.google.com/file/d/1owqLmub8AI3l3VE6RJPTj1ZTMjVQnj1N/view?usp=sharing";
 
@@ -31,6 +32,7 @@ export {
   Contact,
   Heading,
   Anchor,
-  NoteWorthyCards,
+  NoteWorthyCard,
+  NoteWorthyAnchor,
   resumeLink,
 };

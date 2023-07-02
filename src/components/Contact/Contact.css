@@ -43,6 +43,24 @@
   margin-bottom: 2rem;
 }
 
+.contact-container .footer-anchor {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  border: 1px solid var(--secondary-color);
+  border-radius: 0.5rem;
+  padding: 2.5rem 4.5rem;
+  word-spacing: 5px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: all 0.2s ease-in;
+}
+
+.contact-container .footer-anchor:hover {
+  outline: none;
+  box-shadow: 3px 3px 0 0 var(--secondary-color);
+  transform: translate(-5px, -5px);
+}
+
 @media (max-width: 768px) {
   .contact-container {
     max-width: 420px;

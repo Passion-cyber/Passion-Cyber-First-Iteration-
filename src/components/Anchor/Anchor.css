@@ -5,5 +5,5 @@
 }
 
 .global-links:hover {
-  text-decoration: 1px solid var(--secondary-color);
+  border-bottom: 1px solid var(--secondary-color);
 }
