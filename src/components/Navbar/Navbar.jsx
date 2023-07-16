@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { navItem } from "../../ultilities/ultilities";
-import { Link } from 'react-scroll';
+import { Link } from "react-scroll";
 
 import "./Navbar.css";
 
@@ -9,12 +9,12 @@ const Navbar = () => {
 
   return (
     <section className="header">
-      {/* <div
+      <div
         onClick={() => {
           setNavOpen(false);
         }}
         className={`overlay ${navopen && "open"} `}
-      ></div> */}
+      ></div>
       <div className="header-wrapper">
         <div className="logo">
           <Link to="/">
@@ -28,7 +28,6 @@ const Navbar = () => {
               <span>{text}</span>
             </Link>
           ))}
-
         </nav>
 
         <div className="toggle-menu" onClick={() => setNavOpen(!navopen)}>

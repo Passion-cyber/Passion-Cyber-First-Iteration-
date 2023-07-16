@@ -9,31 +9,16 @@ export const technologies = [
     text: "Git & Git-Hub",
   },
   {
-    text: "Styled Components & TailWind CSS",
+    text: "Styled Components",
   },
   {
     text: "Web Sockets",
   },
   {
-    text: "ChartJS",
-  },
-];
-
-export const Notechnologies = [
-  {
-    text: "JavaScript (ES6)",
+    text: "TailWind CSS",
   },
   {
-    text: "ReactJs",
-  },
-  {
-    text: "Git & Git-Hub",
-  },
-  {
-    text: "Styled Components & TailWind CSS",
-  },
-  {
-    text: "Web Sockets",
+    text: "SASS/SCSS",
   },
   {
     text: "ChartJS",

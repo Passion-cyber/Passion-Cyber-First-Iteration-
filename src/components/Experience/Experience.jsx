@@ -22,7 +22,6 @@ const Experience = () => {
                   className={`exp-btn ${index === value && "active-btn"}`}
                   key={item.order}
                 >
-                  {" "}
                   {item.button}
                 </button>
               );

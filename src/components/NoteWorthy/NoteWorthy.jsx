@@ -1,14 +1,13 @@
-import { NoteWorthyCard, Heading } from "../../components";
+import { NoteWorthyCard, Heading, notes } from "../../components";
 import "./NoteWorthy.css";
-
 const NoteWorthy = () => {
   return (
     <section id="Noteworthy" className="noteworthy-container">
-      <Heading number={"04"} text={"Other Noteworthy Projects "} />
+      <Heading number={"04"} text={"Selected Projects "} />
       <div className="noteworthy-inner">
-        <NoteWorthyCard />
-        <NoteWorthyCard />
-        <NoteWorthyCard />
+        {notes.map((note, index) => (
+          <NoteWorthyCard key={index} note={note} />
+        ))}
       </div>
     </section>
   );

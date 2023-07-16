@@ -15,12 +15,14 @@ const HeroSection = () => {
       <p className="hero-description">
         A Software Developer specializing in building exceptional digital
         experiences and cross functional web applications. Currently i'm an
-        intern at the<a
+        intern at the
+        <a
           href="https://www.genesystechhub.com/learnable"
           target="_blank"
           rel="noreferrer"
           className="upstatement"
-        >Learnable 22
+        >
+          Learnable 22
         </a>
         internship program championed by
         <a
