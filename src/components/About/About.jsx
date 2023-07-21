@@ -1,7 +1,7 @@
 import React from "react";
-import { Heading } from "../../components";
-import profile from "../../assets/images/profileimage.jpeg";
-import { technologies } from "../../ultilities/technologies";
+import { Heading } from "..";
+import profile from "../../assets/images/aboutImage.webp";
+import { technologies } from "../../ultilities";
 import "./About.css";
 
 const About = () => {

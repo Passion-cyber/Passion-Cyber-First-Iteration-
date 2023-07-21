@@ -1,3 +1,3 @@
-import { notes } from "./ultilities";
+import { notes, technologies, navItem } from "./ultilities";
 
-export { notes };
+export { notes, technologies, navItem };

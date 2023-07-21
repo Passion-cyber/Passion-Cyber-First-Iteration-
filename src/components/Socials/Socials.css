@@ -24,7 +24,7 @@
 .left-socials > div {
   background-color: var(--darker-white-color);
   width: 1px;
-  height: 600px;
+  height: 18000px;
 }
 
 /* right socials */
@@ -54,7 +54,7 @@
   position: absolute;
   background-color: var(--darker-white-color);
   width: 1px;
-  height: 400px;
+  height: 18000px;
   top: 150px;
 }
 

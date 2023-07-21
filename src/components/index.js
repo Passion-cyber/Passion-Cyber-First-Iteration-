@@ -7,7 +7,7 @@ import Errorpage from "../pages/Errorpage/Errorpage";
 import HeroSection from "../components/HeroSection/HeroSection";
 import Button from "../components/Button/Button";
 import Heading from "../components/Heading/Heading";
-import About from "../components/Aboutpage/About";
+import About from "./About/About";
 import Experience from "../components/Experience/Experience";
 import Anchor from "../components/Anchor/Anchor";
 import NoteWorthy from "../components/NoteWorthy/NoteWorthy";
@@ -17,6 +17,7 @@ import NoteWorthyAnchor from "./NoteWorthy/NoteWorthyAnchor/NoteWorthyAnchor";
 import { notes } from "../ultilities";
 const resumeLink =
   "https://drive.google.com/file/d/1owqLmub8AI3l3VE6RJPTj1ZTMjVQnj1N/view?usp=sharing";
+  // https://drive.google.com/file/d/16LEwlw6dT8ytf8GnBsBiGr7YugFTMG6f/view?usp=sharing
 
 export {
   Navbar,

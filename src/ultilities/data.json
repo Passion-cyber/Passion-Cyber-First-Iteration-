@@ -17,7 +17,7 @@
         "heading": "Front-end Engineering Intern ",
         "link": "@ Genesys Tech Hub",
         "text": "November 2022 - July 2023",
-        "button": "Genesys",
+        "button": "Learnable",
         "lists": [
             "Developed and styled interactive web applications for Apple Music using Ember and SCSS",
             "Built and shipped the Apple Music Extension for Facebook Messenger leveraging third-party and internal API integratio",
@@ -30,34 +30,10 @@
         "heading": "Developer",
         "link": "@ SKUDULABS",
         "text": "Spring 2016 & 2017",
-        "button": "SKUDULABS",
+        "button": "Upskill Mentor",
         "lists": [
             "Collaborated with other student designers and engineers on pro-bono projects to create new brands, design systems, and websites for organizations in the community",
             "Built and delivered technical solutions according to stakeholder business requirements"
-        ]
-    },
-    {
-        "order": 4,
-        "heading": "Software Engineer ",
-        "link": "@ StackOverflow",
-        "text": "July - December 2016",
-        "button": "StackOverflow",
-        "lists": [
-            "Engineered and improved major features of Starry's customer-facing Android web app using ES6, Handlebars, Backbone, Marionette, and CSS",
-            "Proposed and implemented scalable solutions to issues identified with cloud services and applications responsible for communicating with the Starry Station internet router",
-            "Collaborated with designers and other developers to ensure thoughtful and consistent user experiences across Starry’s iOS and Android mobile apps"
-        ]
-    },
-    {
-        "order": 5,
-        "heading": "Creative Technologist Co-op ",
-        "link": "@ Google",
-        "text": "July - December 2015",
-        "button": "Google",
-        "lists": [
-            "Developed, maintained, and shipped production code for client websites primarily using HTML, CSS, Sass, JavaScript, and jQuery",
-            "Performed quality assurance tests on various sites to ensure cross-browser compatibility and mobile responsiveness",
-            "Clients included JetBlue, Lovesac, U.S. Cellular, U.S. Department of Defense, and more"
         ]
     }
 ]

@@ -6,7 +6,7 @@ const RightSocials = () => {
     <section>
       <div className="right-socials">
         <a
-          href="https://github.com/Passion-cyber"
+          href="mailto:chineduibelachi@gmail.com"
           target="_blank"
           rel="noreferrer"
           className="link-tags"

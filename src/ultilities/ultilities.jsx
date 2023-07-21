@@ -21,6 +21,33 @@ export const navItem = [
   },
 ];
 
+export const technologies = [
+  {
+    text: "JavaScript (ES6)",
+  },
+  {
+    text: "ReactJs",
+  },
+  {
+    text: "Git & Git-Hub",
+  },
+  {
+    text: "Styled Components",
+  },
+  {
+    text: "Web Sockets",
+  },
+  {
+    text: "TailWind CSS",
+  },
+  {
+    text: "SASS/SCSS",
+  },
+  {
+    text: "ChartJS",
+  },
+];
+
 export const notes = [
   {
     id: "123",
@@ -29,27 +56,27 @@ export const notes = [
     externalLink: "https://spotify-clone-nine-tau.vercel.app/",
     title: "Standardized Spotify Clone",
     description:
-      "Built a spotify web app for visualizing personalized Spotify data. Search and listen and as well view your playlist tracks",
+      "A spotify web app for visualizing personalized Spotify data. Users are able Search, listen and as well view playlist tracks.",
     lists: ["HTML", "CSS", "React JS"],
   },
   {
     id: "234",
-    goto: "https://kalmlydemo.vercel.app/",
+    goto: "https://kalmly.vercel.app/",
     href: "https://github.com/learnable-2022/KMH-FE",
-    externalLink: "https://kalmlydemo.vercel.app/",
-    title: "KalmlyHealth",
+    externalLink: "https://kalmly.vercel.app/",
+    title: "Kalmly Health",
     description:
-      "A Mental Healthcare App where users can get help throughtherapy sessions with Healthcare professionals",
+      "A Mental Healthcare App where users get help via therapy sessions  scheduled with industry experts.",
     lists: ["HTML", "CSS", "React JS", "Socket.io", "NodeJs"],
   },
   {
-    id: "234",
+    id: "567",
     goto: "https://kalmlydemo.vercel.app/",
     href: "https://github.com/learnable-2022/KMH-FE",
-    externalLink: "https://kalmlydemo.vercel.app/",
+    externalLink: null,
     title: "COMIC ZONE",
     description:
-      "An online storealthcare App where users can get help throughtherapy sessioe for purchasing comic bookstore",
+      "An online Comic Library App where users view, download, read and purchase a wide range of Comic books. ",
     lists: ["HTML", "CSS", "React JS", "Socket.io", "NodeJs"],
   },
 ];

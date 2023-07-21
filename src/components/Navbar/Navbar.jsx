@@ -1,14 +1,13 @@
-import React, { useState } from "react";
-import { navItem } from "../../ultilities/ultilities";
+import { useState } from "react";
+import { navItem } from "../../ultilities";
 import { Link } from "react-scroll";
-
 import "./Navbar.css";
 
 const Navbar = () => {
   const [navopen, setNavOpen] = useState(false);
 
   return (
-    <section className="header">
+    <header className="header">
       <div
         onClick={() => {
           setNavOpen(false);
@@ -36,7 +35,7 @@ const Navbar = () => {
           <div className={`burger ${navopen && "three"}`} />
         </div>
       </div>
-    </section>
+    </header>
   );
 };
 
