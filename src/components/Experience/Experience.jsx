@@ -1,10 +1,10 @@
 import React, { useState } from "react";
-import "./Experience.css";
 import { Heading, Anchor } from "../../components";
 import info from "../../ultilities/data.json";
+import "./Experience.css";
 
 const Experience = () => {
-  const [data, SetData] = useState(info);
+  const [data] = useState(info);
   const [value, setValue] = useState(0);
   const { heading, link, text, lists } = data[value];
 

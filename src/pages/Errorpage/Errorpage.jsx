@@ -10,8 +10,21 @@ const Errorpage = () => {
 
   return (
     <section className="errorContainer">
-      <img src={ErrorImage} alt="erroImage" />
-      <div className="errorContent">
+      <img
+        data-aos-easing="ease-in-out"
+        data-aos-duration="800"
+        data-aos="fade-up"
+        data-aos-once="true"
+        src={ErrorImage}
+        alt="erroImage"
+      />
+      <div
+        data-aos-easing="ease-in-out"
+        data-aos-duration="800"
+        data-aos="fade-up"
+        data-aos-once="true"
+        className="errorContent"
+      >
         <p className="errorHeading">Oops!</p>
         <div className="errorContent">
           <p className="errorText">

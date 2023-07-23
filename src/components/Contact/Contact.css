@@ -4,9 +4,8 @@
   display: flex;
   align-items: flex-start;
   gap: 1.5rem;
-  margin: 0 auto;
-  padding: 4rem 0.5rem;
   text-align: center;
+  margin: 4em 1rem 9em 1rem;
 }
 
 .contact-inner {
@@ -62,91 +61,19 @@
 
 @media (min-width: 860px) {
   .contact-inner {
+    padding: 2rem 0;
     max-width: 750px;
+    margin: 0 auto;
+    gap: 2em;
   }
+
   .contact-container h2 {
     font-size: 6rem;
   }
 }
 
-/* .contact-container {
-  position: relative;
-  width: 100%;
-  display: flex;
-  align-items: flex-start;
-  gap: 1.5rem;
-  margin: 0 auto;
-  padding: 9rem 0;
-  text-align: center;
-}
-
-.contact-inner {
-  display: flex;
-  flex-direction: column;
-  margin: 0 auto;
-  align-items: center;
-  text-align: center;
-  justify-content: center;
-  padding: 0 1rems;
-}
-
-.contact-inner h1 {
-  color: var(--secondary-color);
-  word-spacing: 5px;
-  font-size: 1.7rem;
-}
-
-.contact-container h2 {
-  font-size: 6rem;
-  color: var(--dark-white-color);
-  font-weight: bolder;
-  font-family: "Inter", sans-serif;
-  text-align: center;
-  margin: 2rem auto;
-}
-
-.contact-container p {
-  color: var(--darker-white-color);
-  font-size: 1.5rem;
-  font-weight: 600;
-  line-height: 1.5;
-  margin-bottom: 2rem;
-}
-
-.contact-container .footer-anchor {
-  background-color: var(--primary-color);
-  color: var(--secondary-color);
-  border: 1px solid var(--secondary-color);
-  border-radius: 0.5rem;
-  padding: 2.5rem 4.5rem;
-  word-spacing: 5px;
-  font-size: 1.5rem;
-  cursor: pointer;
-  transition: all 0.2s ease-in;
-}
-
-.contact-container .footer-anchor:hover {
-  outline: none;
-  box-shadow: 3px 3px 0 0 var(--secondary-color);
-  transform: translate(-5px, -5px);
-}
-
-@media (max-width: 768px) {
+@media (min-width: 1200px) {
   .contact-container {
-    max-width: 420px;
-    padding: 4rem 0;
+    margin: 4em auto 9em auto;
   }
-  .contact-inner h1 {
-    color: var(--secondary-color);
-    word-spacing: 5px;
-    font-size: 1.5rem;
-  }
-
-  .contact-container h2 {
-    font-size: 4rem;
-  }
-
-  .contact-container p {
-    font-size: 1.3rem;
-  }
-} */
+}

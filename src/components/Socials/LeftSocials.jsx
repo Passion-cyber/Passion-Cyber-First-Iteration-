@@ -7,7 +7,13 @@ import "./Socials.css"
 const LeftSocials = () => {
   return (
    <section>
-     <div className="left-socials">
+     <div 
+     data-aos-easing="ease-in-out"
+     data-aos-duration="1000"
+     data-aos="fade-up"
+     data-aos-delay="1500"
+     data-aos-once="true"
+     className="left-socials">
             <a href="https://github.com/Passion-cyber" rel="noreferrer" target="_blank"> <FiGithub/> </a> 
             <a href="www.linkedin.com/in/ibelachi-franklyn-767322246" rel="noreferrer" target="_blank"> <FiLinkedin/> </a>
             <a href="https://twitter.com/Dede_edum" rel="noreferrer" target="_blank"> <BsTwitter/> </a>

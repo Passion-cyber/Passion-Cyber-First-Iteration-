@@ -3,7 +3,7 @@
   align-items: flex-start;
   gap: 2rem;
   flex-direction: column;
-  margin: 4em auto 9em auto;
+  margin: 4em 1rem 9em 1rem;
 }
 
 .hero-container h2 {
@@ -13,9 +13,10 @@
 }
 
 .hero-container h1 {
-  font-size: 70px;
+  font-size: 50px;
   font-weight: bolder;
   color: var(--dark-white-color);
+  line-height: 130%;
 }
 
 .hero-container span {
@@ -28,6 +29,7 @@
   font-weight: 600;
   line-height: 1.5;
   margin-bottom: 2rem;
+  max-width: 600px;
 }
 
 @media (min-width: 860px) {
@@ -46,7 +48,6 @@
 
   .hero-container h1 {
     font-size: 80px;
-    /* border: 1px solid red; */
     font-weight: bolder;
     color: var(--dark-white-color);
   }
@@ -59,7 +60,6 @@
     color: var(--darker-white-color);
     font-size: 1.6rem;
     font-weight: 600;
-    width: 500px;
     line-height: 1.5;
   }
 
@@ -79,5 +79,9 @@
     max-width: 1000px;
     margin: 4em auto 9em auto;
     gap: 2rem;
+  }
+
+  .hero-container .hero-description {
+    font-size: 1.6rem;
   }
 }

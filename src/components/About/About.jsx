@@ -6,16 +6,16 @@ import "./About.css";
 
 const About = () => {
   return (
-    <section
-      id="About"
-      className="about-container"
-      data-aos="fade-up"
-      data-aos-duration="1000"
-      data-aos-once="true"
-    >
+    <section id="About" className="about-container">
       <Heading number={"01"} text={"About Me"} empty_div={""} />
       <div className="about-global-container">
-        <div className="content-section">
+        <div
+          data-aos-easing="ease-in-out"
+          data-aos-duration="800"
+          data-aos="fade-up"
+          data-aos-once="true"
+          className="content-section"
+        >
           <p className="hero-description">
             Hello! My name is Ibelachi Chinedu Franklyn. Basically I have this
             passion for everything coding, and I derive joy from creating
@@ -59,7 +59,13 @@ const About = () => {
             </ul>
           </div>
         </div>
-        <div className="image-container">
+        <div
+          data-aos-easing="ease-in-out"
+          data-aos-duration="800"
+          data-aos="fade-up"
+          data-aos-once="true"
+          className="image-container"
+        >
           <div className="image">
             <img src={profile} alt="profile-display" />
           </div>

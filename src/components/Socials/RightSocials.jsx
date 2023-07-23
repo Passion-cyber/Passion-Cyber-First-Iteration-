@@ -4,7 +4,14 @@ import "./Socials.css";
 const RightSocials = () => {
   return (
     <section>
-      <div className="right-socials">
+      <div
+        data-aos-easing="ease-in-out"
+        data-aos-duration="1000"
+        data-aos="fade-up"
+        data-aos-delay="1500"
+        data-aos-once="true"
+        className="right-socials"
+      >
         <a
           href="mailto:chineduibelachi@gmail.com"
           target="_blank"
