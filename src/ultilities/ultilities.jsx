@@ -71,12 +71,12 @@ export const notes = [
   },
   {
     id: "567",
-    goto: "https://kalmlydemo.vercel.app/",
-    href: "https://github.com/learnable-2022/KMH-FE",
-    externalLink: null,
+    goto: "https://github.com/ComicZone/Comic-Zone-Client",
+    href: "https://github.com/ComicZone/Comic-Zone-Client",
+    externalLink: "https://github.com/ComicZone/Comic-Zone-Client",
     title: "COMIC ZONE",
     description:
-      "An online Comic Library App where users view, download, read and purchase a wide range of Comic books. ",
+      "An online Comic Library where users view, download, read and purchase a wide range of Comic books. ",
     lists: ["HTML", "CSS", "React JS", "Socket.io", "NodeJs"],
   },
 ];

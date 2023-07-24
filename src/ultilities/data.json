@@ -7,10 +7,10 @@
         "text": "October 2021 - July 2022",
         "button": "Upskill",
         "lists": [
-            "Developed responsive web pages that provided an optimal user experience across different devices, including desktops, tablets, and mobile devices.",
-            "Work alongside creative directors to lead the research, development, and architecture of technical solutions to fulfill business requirements",
-            "Collaborate with designers, project managers, and other engineers to transform creative concepts into production realities for clients and stakeholders",
-            "Provide leadership within engineering department through close collaboration, knowledge shares, and mentorship"
+            "Collaborated with a cross-functional team of designers, back-end developers, and a product manager to create interactive features and functionality, enhancing the overall usability and performance of a fintech App.",
+            "Optimized the front-end codebase by refactoring and implementing efficient coding practices, resulting in a 20% improvement in page load times and overall application performance.",
+            "Successfully integrated third-party APIs and libraries, such as payment gateways and data visualization tools, into the fintech app, expanding its functionality and enhancing user interactions.",
+            "Provide leadership within the development department through close collaboration, knowledge shares, and mentorship"
         ]
     },
     {
@@ -21,10 +21,9 @@
         "text": "November 2022 - July 2023",
         "button": "Learnable",
         "lists": [
-            "Developed and styled interactive web applications for Apple Music using Ember and SCSS",
-            "Built and shipped the Apple Music Extension for Facebook Messenger leveraging third-party and internal API integratio",
-            "Architected and implemented the user interface of Apple Music's embeddable web player widget for in-browser user authorization and full song playback",
-            "Contributed extensively to the creation of MusicKit JS, a public-facing JavaScript SDK for embedding Apple Music players into web applications"
+            "Developed responsive web pages and optimized it's user experience across different devices, enhancing accessibility and usage using HTML, CSS, and ReactJS.",
+            "Worked closely with the back-end development team to design and consume REST APIs, ensuring seamless data retrieval and synchronization between the app's front-end and back-end components..",
+            "Interning here equipped me with a deep understanding of agile methodologies, various front-end frameworks, and API integration, enabling me to deliver high-quality, user-centric solutions in a collaborative team environment."
         ]
     },
     {
