@@ -1,5 +1,5 @@
 import "./HeroSection.css";
-import { resumeLink, Button } from "../../components";
+import { resumeLink, Button, Anchor } from "../../components";
 
 const HeroSection = () => {
   const customStyles = {
@@ -16,7 +16,7 @@ const HeroSection = () => {
         data-aos-once="true"
         className="intro"
       >
-        Hi, my name is
+        Hey, I'm
       </h2>
       <h1
         data-aos-easing="ease-in-out"
@@ -38,23 +38,21 @@ const HeroSection = () => {
         A Software Developer specializing in building exceptional digital
         experiences and cross functional web applications. Currently i'm an
         intern at the
-        <a
+        <Anchor
           href="https://www.genesystechhub.com/learnable"
           target="_blank"
           rel="noreferrer"
           className="upstatement"
-        >
-          Learnable 22
-        </a>
+          children={"Learnable 22"}
+        />
         internship program championed by
-        <a
+        <Anchor
           href="https://www.genesystechhub.com/"
           target="_blank"
           rel="noreferrer"
           className="upstatement"
-        >
-          Genesys
-        </a>
+          children={"Genesys"}
+        />
         Tech Hub Enugu.
       </p>
       <a

@@ -1,8 +1,9 @@
- [
+[
     {
         "order": 1,
         "heading": "Front-end Engineering Intern",
-        "link": "@ Upskill Community",
+        "link": " @ Upskill Community",
+        "communityLink": "@ Upskill Community",
         "text": "October 2021 - July 2022",
         "button": "Upskill",
         "lists": [
@@ -15,7 +16,8 @@
     {
         "order": 2,
         "heading": "Front-end Engineering Intern ",
-        "link": "@ Genesys Tech Hub",
+        "link": " @ Genesys Tech Hub",
+        "communityLink": "@ Upskill Community",
         "text": "November 2022 - July 2023",
         "button": "Learnable",
         "lists": [
@@ -29,6 +31,7 @@
         "order": 3,
         "heading": "Developer",
         "link": "@ SKUDULABS",
+        "communityLink": "@ Upskill Community",
         "text": "Spring 2016 & 2017",
         "button": "Upskill Mentor",
         "lists": [

@@ -6,7 +6,7 @@ import "./Experience.css";
 const Experience = () => {
   const [data] = useState(info);
   const [value, setValue] = useState(0);
-  const { heading, link, text, lists } = data[value];
+  const { heading, link, text, lists, communityLink } = data[value];
 
   return (
     <section id="Experience" className="experience-container">
@@ -31,11 +31,11 @@ const Experience = () => {
         <div className="right-experience">
           <div className="individual-exps">
             <h2>
-              {heading}{" "}
+              {heading}
               <span>
                 <Anchor
                   className="git"
-                  href="https://web.facebook.com/ibelachi.chinedu"
+                  href={communityLink}
                   target="_blank"
                   rel="noopener noreferrer"
                   children={link}
