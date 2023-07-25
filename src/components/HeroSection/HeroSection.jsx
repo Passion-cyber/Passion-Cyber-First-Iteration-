@@ -35,7 +35,7 @@ const HeroSection = () => {
         data-aos-once="true"
         className="hero-description"
       >
-        A Software Developer specializing in building exceptional digital
+        {/* A Software Developer specializing in building exceptional digital
         experiences and cross functional web applications. Currently i'm an
         intern at the
         <Anchor
@@ -53,7 +53,20 @@ const HeroSection = () => {
           className="upstatement"
           children={"Genesys"}
         />
-        Tech Hub Enugu.
+        Tech Hub Enugu. */}
+        A skilled Software Developer specialization in crafting
+        outstanding digital experiences and creating cross-functional
+        web applications. With a passion for frontend development, I take pride
+        in bringing innovative designs to life and delivering seamless user
+        experiences. Explore my  <Anchor
+          href="https://github.com/Passion-cyber"
+          target="_blank"
+          rel="noreferrer"
+          className="upstatement"
+          children={"projects"}
+        /> to witness how I combine creativity and
+        technical expertise to build captivating web solutions that leave a
+        lasting impression.
       </p>
       <a
         data-aos-easing="ease-in-out"

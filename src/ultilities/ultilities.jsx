@@ -32,19 +32,19 @@ export const technologies = [
     text: "Git & Git-Hub",
   },
   {
+    text: "TypeScript",
+  },
+  {
     text: "Styled Components",
   },
   {
-    text: "Web Sockets",
-  },
-  {
-    text: "TailWind CSS",
+    text: "NextJs",
   },
   {
     text: "SASS/SCSS",
   },
   {
-    text: "ChartJS",
+    text: "TailWind CSS",
   },
 ];
 

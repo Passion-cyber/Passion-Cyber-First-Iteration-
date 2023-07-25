@@ -10,7 +10,7 @@ const Experience = () => {
 
   return (
     <section id="Experience" className="experience-container">
-      <Heading number={"02"} text={"Where I've worked"} />
+      <Heading number={"02"} text={"Experience"} />
       <div className="experience-global-container">
         <div className="left-experience">
           <div className="scroll-bar"></div>

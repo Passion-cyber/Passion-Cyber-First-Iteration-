@@ -3,7 +3,7 @@ import "./NoteWorthy.css";
 const NoteWorthy = () => {
   return (
     <section id="Noteworthy" className="noteworthy-container">
-      <Heading number={"04"} text={"Selected Projects "} />
+      <Heading number={"03"} text={"Selected Projects "} />
       <div className="noteworthy-inner">
         {notes.map((note, index) => (
           <NoteWorthyCard key={index} note={note} />

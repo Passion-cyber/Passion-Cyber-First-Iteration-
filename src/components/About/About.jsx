@@ -20,14 +20,21 @@ const About = () => {
             Hello! My name is Ibelachi Chinedu Franklyn. Basically I have this
             passion for everything coding, and I derive joy from creating
             beautiful looking web pages and bringing beautiful designs to life.
-            In summary I enjoy building things that live on the web, looking
-            forward to growing in knowledge of the tech industry. My interest in
-            web development started back in 2018 when I built my first web page
-            with HTML and CSS which opened my eyes to a greater world of endless
-            possibilities.
+            My interest in web development started back in 2018 when I built my
+            first web page with HTML and CSS which opened my eyes to a greater
+            world of endless possibilities.
           </p>
           <p className="hero-description">
-            Fast-forward to today, and I’ve had the privilege of interning at{" "}
+            Fast-forward to today, and I’ve had the privilege of interning at
+            <a
+              href="https://www.genesystechhub.com/learnable"
+              target="_blank"
+              rel="noreferrer"
+              className="upstatement"
+            >
+              Learnable 22
+            </a>{" "}
+            under
             <a
               href="https://www.genesystechhub.com/"
               target="_blank"
@@ -35,7 +42,7 @@ const About = () => {
               className="upstatement"
             >
               Genesys
-            </a>{" "}
+            </a>
             Tech Hub Enugu, one of the most prominent start-ups in the South
             east Nigeria, a huge corporation, focused on impacting in young
             techies and entrepreneurs. Although not working with any Tech
