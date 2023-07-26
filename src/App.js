@@ -1,8 +1,8 @@
-// import { useEffect } from "react";
+import { useEffect } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./App.css";
-// import AOS from "aos";
-// import "aos/dist/aos.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 import {
   Navbar,
@@ -14,13 +14,13 @@ import {
 } from "./components";
 
 function App() {
-  // useEffect(() => {
-  //   AOS.init({ once: true });
+  useEffect(() => {
+    AOS.init({ once: true });
 
-  //   return () => {
-  //     AOS.refresh();
-  //   };
-  // }, []);
+    return () => {
+      AOS.refresh();
+    };
+  }, []);
   return (
     <>
       <Router>

@@ -1,8 +1,8 @@
 [
     {
         "order": 1,
-        "heading": "Front-end Engineering Intern",
-        "link": " @ Upskill Community",
+        "heading": "Web Development Intern",
+        "link": " @ Genesy Upskill Community",
         "communityLink": "@ Upskill Community",
         "text": "October 2021 - July 2022",
         "button": "Upskill",
@@ -28,14 +28,15 @@
     },
     {
         "order": 3,
-        "heading": "Developer",
-        "link": "@ SKUDULABS",
+        "heading": "Web Dev Facilitator",
+        "link": "@ Genesys Upskill Community",
         "communityLink": "@ Upskill Community",
-        "text": "Spring 2016 & 2017",
-        "button": "Upskill Mentor",
+        "text": "Febuary 2023 - July 2023",
+        "button": "Genesys",
         "lists": [
-            "Collaborated with other student designers and engineers on pro-bono projects to create new brands, design systems, and websites for organizations in the community",
-            "Built and delivered technical solutions according to stakeholder business requirements"
+            "Collaborated with a team to design and refine a comprehensive curriculum tailored to the needs of the mentees. This curriculum covered essential frontend web development technologies such as HTML, CSS, JavaScript, responsive design, and basic interaction with frontend frameworks.",
+            "To simulate real-world experiences, I led my mentees in developing a collaborative frontend project. This project involved creating a responsive website for a Real estate website. It allowed the mentees to work in a team, understand version control with Git, and experience the challenges and joys of a real client project.",
+            "Recognizing the diverse backgrounds and learning paces of my mentees, I offered personalized one-on-one sessions to address their queries, provide code reviews, and offer constructive feedback on their projects."
         ]
     }
 ]

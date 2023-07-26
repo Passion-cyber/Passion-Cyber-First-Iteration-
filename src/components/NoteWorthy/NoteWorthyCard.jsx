@@ -9,6 +9,10 @@ const NoteWorthyCard = (props) => {
     props.note;
   return (
     <a
+      data-aos-easing="ease-in-out"
+      data-aos-duration="800"
+      data-aos="fade-up"
+      data-aos-once="true"
       href={goto}
       target="_blank"
       rel="noopener noreferrer"

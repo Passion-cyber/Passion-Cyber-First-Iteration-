@@ -7,77 +7,34 @@ const HeroSection = () => {
   };
 
   return (
-    <section className="hero-container">
-      <h2
-        data-aos-easing="ease-in-out"
-        data-aos-duration="1000"
-        data-aos="fade-up"
-        data-aos-delay="700"
-        data-aos-once="true"
-        className="intro"
-      >
-        Hey, I'm
-      </h2>
-      <h1
-        data-aos-easing="ease-in-out"
-        data-aos-duration="1000"
-        data-aos="fade-up"
-        data-aos-delay="750"
-        data-aos-once="true"
-      >
+    <section
+      data-aos-easing="ease-in-out"
+      data-aos-duration="1000"
+      data-aos="fade-up"
+      data-aos-delay="700"
+      data-aos-once="true"
+      className="hero-container"
+    >
+      <h2 className="intro">Hey, I'm</h2>
+      <h1>
         Ibelachi Chinedu. <br /> <span>I build things for the web.</span>
       </h1>
-      <p
-        data-aos-easing="ease-in-out"
-        data-aos-duration="1000"
-        data-aos="fade-up"
-        data-aos-delay="800"
-        data-aos-once="true"
-        className="hero-description"
-      >
-        {/* A Software Developer specializing in building exceptional digital
-        experiences and cross functional web applications. Currently i'm an
-        intern at the
+      <p className="hero-description">
+        A skilled Software Developer specializating in crafting outstanding
+        digital experiences and creating cross-functional web applications. With
+        a passion for frontend development, I take pride in bringing innovative
+        designs to life and delivering seamless user experiences. Explore my{" "}
         <Anchor
-          href="https://www.genesystechhub.com/learnable"
-          target="_blank"
-          rel="noreferrer"
-          className="upstatement"
-          children={"Learnable 22"}
-        />
-        internship program championed by
-        <Anchor
-          href="https://www.genesystechhub.com/"
-          target="_blank"
-          rel="noreferrer"
-          className="upstatement"
-          children={"Genesys"}
-        />
-        Tech Hub Enugu. */}
-        A skilled Software Developer specialization in crafting
-        outstanding digital experiences and creating cross-functional
-        web applications. With a passion for frontend development, I take pride
-        in bringing innovative designs to life and delivering seamless user
-        experiences. Explore my  <Anchor
           href="https://github.com/Passion-cyber"
           target="_blank"
           rel="noreferrer"
           className="upstatement"
           children={"projects"}
-        /> to witness how I combine creativity and
-        technical expertise to build captivating web solutions that leave a
-        lasting impression.
+        />{" "}
+        to witness how I combine creativity and technical expertise to build
+        captivating web solutions that leave a lasting impression.
       </p>
-      <a
-        data-aos-easing="ease-in-out"
-        data-aos-duration="1000"
-        data-aos="fade-up"
-        data-aos-delay="850"
-        data-aos-once="true"
-        href={resumeLink}
-        target="_blank"
-        rel="noreferrer"
-      >
+      <a href={resumeLink} target="_blank" rel="noreferrer">
         <Button style={customStyles} text="Check Out My Resume!" />
       </a>
     </section>

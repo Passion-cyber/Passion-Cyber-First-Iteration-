@@ -3,12 +3,14 @@ import "./Contact.css";
 
 const Contact = () => {
   return (
-    <section
-    id="Contact"
-    className="contact-container"
-     
-    >
-      <div className="contact-inner">
+    <section id="Contact" className="contact-container">
+      <div
+        data-aos-easing="ease-in-out"
+        data-aos-duration="800"
+        data-aos="fade-up"
+        data-aos-once="true"
+        className="contact-inner"
+      >
         <h1>Contact Me</h1>
         <h2>Let's Get In Touch</h2>
         <p>

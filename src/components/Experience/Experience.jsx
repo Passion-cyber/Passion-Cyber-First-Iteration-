@@ -12,7 +12,13 @@ const Experience = () => {
     <section id="Experience" className="experience-container">
       <Heading number={"02"} text={"Experience"} />
       <div className="experience-global-container">
-        <div className="left-experience">
+        <div
+          data-aos-easing="ease-in-out"
+          data-aos-duration="800"
+          data-aos="fade-up"
+          data-aos-once="true"
+          className="left-experience"
+        >
           <div className="scroll-bar"></div>
           <div className="btn-container">
             {data.map((item, index) => {
@@ -28,7 +34,13 @@ const Experience = () => {
             })}
           </div>
         </div>
-        <div className="right-experience">
+        <div
+          data-aos-easing="ease-in-out"
+          data-aos-duration="800"
+          data-aos="fade-up"
+          data-aos-once="true"
+          className="right-experience"
+        >
           <div className="individual-exps">
             <h2>
               {heading}

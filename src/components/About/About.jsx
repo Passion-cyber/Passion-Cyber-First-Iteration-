@@ -1,5 +1,5 @@
 import React from "react";
-import { Heading } from "..";
+import { Anchor, Heading } from "..";
 import profile from "../../assets/images/aboutImage.webp";
 import { technologies } from "../../ultilities";
 import "./About.css";
@@ -8,14 +8,14 @@ const About = () => {
   return (
     <section id="About" className="about-container">
       <Heading number={"01"} text={"About Me"} empty_div={""} />
-      <div className="about-global-container">
-        <div
-          data-aos-easing="ease-in-out"
-          data-aos-duration="800"
-          data-aos="fade-up"
-          data-aos-once="true"
-          className="content-section"
-        >
+      <div
+        data-aos-easing="ease-in-out"
+        data-aos-duration="800"
+        data-aos="fade-up"
+        data-aos-once="true"
+        className="about-global-container"
+      >
+        <div className="content-section">
           <p className="hero-description">
             Hello! My name is Ibelachi Chinedu Franklyn. Basically I have this
             passion for everything coding, and I derive joy from creating
@@ -26,23 +26,19 @@ const About = () => {
           </p>
           <p className="hero-description">
             Fast-forward to today, and I’ve had the privilege of interning at
-            <a
+            <Anchor
               href="https://www.genesystechhub.com/learnable"
               target="_blank"
               rel="noreferrer"
-              className="upstatement"
-            >
-              Learnable 22
-            </a>{" "}
+              children={"Learnable 22"}
+            />
             under
-            <a
+            <Anchor
               href="https://www.genesystechhub.com/"
               target="_blank"
               rel="noreferrer"
-              className="upstatement"
-            >
-              Genesys
-            </a>
+              children={"Genesys"}
+            />
             Tech Hub Enugu, one of the most prominent start-ups in the South
             east Nigeria, a huge corporation, focused on impacting in young
             techies and entrepreneurs. Although not working with any Tech
@@ -66,13 +62,7 @@ const About = () => {
             </ul>
           </div>
         </div>
-        <div
-          data-aos-easing="ease-in-out"
-          data-aos-duration="800"
-          data-aos="fade-up"
-          data-aos-once="true"
-          className="image-container"
-        >
+        <div className="image-container">
           <div className="image">
             <img src={profile} alt="profile-display" />
           </div>

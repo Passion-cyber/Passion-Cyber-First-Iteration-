@@ -1,6 +1,6 @@
 import "./Anchor.css";
 
-const  Anchor = ({ href, target, rel, children, style }) => {
+const Anchor = ({ href, target, rel, children, style }) => {
   return (
     <a
       href={href}
