@@ -1,6 +1,5 @@
 import React from "react";
-import Heading from "./Heading";
-import ProjectCard from "./ProjectCard";
+import { Heading, ProjectCard, projectNotes } from "../../components";
 import "./Projects.css";
 
 const Projects = () => {
@@ -8,7 +7,9 @@ const Projects = () => {
     <section className="projects-container">
       <Heading number={"03"} text={"Projects I've Worked on"} />
       <div className="projects-global-container">
-        <ProjectCard />
+        {projectNotes.map((projectNote, index) => {
+          return <ProjectCard projectNote={projectNote} key={index} />;
+        })}
       </div>
     </section>
   );

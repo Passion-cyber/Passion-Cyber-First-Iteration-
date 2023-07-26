@@ -5,6 +5,7 @@ import {
   Experience,
   NoteWorthy,
   Contact,
+  Projects,
 } from "../../components";
 
 const Homepage = () => {
@@ -13,6 +14,7 @@ const Homepage = () => {
       <HeroSection />
       <About />
       <Experience />
+      <Projects/>
       <NoteWorthy />
       <Contact />
     </div>

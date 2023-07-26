@@ -14,11 +14,14 @@ import NoteWorthy from "../components/NoteWorthy/NoteWorthy";
 import NoteWorthyCard from "./NoteWorthy/NoteWorthyCard";
 import Contact from "../components/Contact/Contact";
 import NoteWorthyAnchor from "./NoteWorthy/NoteWorthyAnchor/NoteWorthyAnchor";
+import ProjectCard from "./Projects/ProjectCard";
+import Projects from "./Projects/Projects";
+import { projectNotes } from "../ultilities/ultilities";
 import { notes } from "../ultilities";
 const resumeLink =
   "https://drive.google.com/file/d/1xAIRTKKNVC6ZNScxEZ5VSaB9NfJAFH0d/view?usp=sharing";
-// "https://drive.google.com/file/d/1owqLmub8AI3l3VE6RJPTj1ZTMjVQnj1N/view?usp=sharing";
-// https://drive.google.com/file/d/16LEwlw6dT8ytf8GnBsBiGr7YugFTMG6f/view?usp=sharing
+const profile =
+  "https://res.cloudinary.com/dysznjd1z/image/upload/v1690358556/First-Iteration-Images/aboutImage_dgkhdj.webp";
 
 export {
   Navbar,
@@ -29,6 +32,9 @@ export {
   Errorpage,
   HeroSection,
   Button,
+  ProjectCard,
+  Projects,
+  projectNotes,
   About,
   Experience,
   NoteWorthy,
@@ -39,4 +45,5 @@ export {
   NoteWorthyAnchor,
   notes,
   resumeLink,
+  profile,
 };

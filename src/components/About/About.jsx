@@ -1,9 +1,7 @@
 import React from "react";
-import { Anchor, Heading } from "..";
+import { Anchor, Heading,profile } from "..";
 import { technologies } from "../../ultilities";
 import "./About.css";
-const profile =
-  "https://res.cloudinary.com/dysznjd1z/image/upload/v1690358556/First-Iteration-Images/aboutImage_dgkhdj.webp";
 
 const About = () => {
   return (

@@ -80,3 +80,38 @@ export const notes = [
     lists: ["HTML", "CSS", "React JS", "Socket.io", "NodeJs"],
   },
 ];
+
+export const projectNotes = [
+  {
+    profile: "cloudinaryURL link",
+    heading: "Featured Project",
+    featured: "Kalmly Health",
+    paragraph:
+      "A Mental Healthcare App where users get help via therapy sessions  scheduled with industry experts.",
+    externalLink: "https://github.com/ComicZone/Comic-Zone-Client",
+    liveLink: "this is the valid url link",
+    lists: ["HTML", "CSS", "React JS", "Socket.io", "NodeJs"],
+  },
+  {
+    profile: "cloudinaryURL link",
+    heading: "Featured Project",
+    featured: "Kalmly Health",
+    paragraph:
+      "A Mental Healthcare App where users get help via therapy sessions  scheduled with industry experts.",
+    externalLink: "https://github.com/ComicZone/Comic-Zone-Client",
+    liveLink: "this is the valid url link",
+
+    lists: ["HTML", "CSS", "React JS", "Socket.io", "NodeJs"],
+  },
+  {
+    profile: "cloudinaryURL link",
+    heading: "Featured Project",
+    featured: "Kalmly Health",
+    paragraph:
+      "A Mental Healthcare App where users get help via therapy sessions  scheduled with industry experts.",
+    externalLink: "https://github.com/ComicZone/Comic-Zone-Client",
+    liveLink: "this is the valid url link",
+
+    lists: ["HTML", "CSS", "React JS", "Socket.io", "NodeJs"],
+  },
+];

@@ -10,12 +10,12 @@
 }
 
 :root {
-  --primary-color: #0a182e;
-  --secondary-color: #65feda;
-  --dark-white-color: #cdd7f6;
-  --darker-white-color: #79819b;
-  --hover-color: #2f3c50;
-  --modal-color: #102241;
+  --primary-color: rgb(10, 12, 23);
+  --secondary-color: rgb(13, 138, 255);
+  --dark-white-color: rgb(237, 236, 236);
+  --darker-white-color: rgb(171, 176, 192);
+  --hover-color: rgb(64, 81, 107);
+  --modal-color: rgb(10, 22, 40);
   --box-shadow-color: rgba(7, 19, 36, 0.5);
 }
 

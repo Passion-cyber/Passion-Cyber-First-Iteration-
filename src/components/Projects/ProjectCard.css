@@ -1,51 +1,91 @@
-.grid-2 {
+.gridContainer {
   display: flex;
   align-items: flex-start;
-  margin: 0 auto;
-  flex-wrap: wrap;
-  text-align: left;
+  flex-direction: column;
+  text-align: right;
 }
 
-.grid-content {
-  flex: 1;
+.projectImageContainer {
+  display: none;
 }
 
-.image-content {
-  flex: 1;
+.gridContent {
+  border: 1px solid red;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 3em;
 }
 
-.grid-content .featured {
+.gridContent h1 {
   color: var(--secondary-color);
-}
-
-.grid-content .header {
-  color: var(--dark-white-color);
   font-size: 2rem;
 }
 
-.grid-content p {
-  border: 1px solid red;
-  background-color: var(--modal-color);
-  padding: 2rem;
-  color: var(--darker-white-color);
-  font-size: 1.6rem;
+.gridContent p {
+  color: var(--dark-white-color);
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.gridContent .description p {
+  font-size: 1.5rem;
   font-weight: 600;
-  width: 500px;
+  color: var(--darker-white-color);
+}
+
+.spanContainer {
+  display: flex;
+  justify-content: flex-start;
+  gap: 1em;
+}
+
+.spanContainer span {
+  color: var(--darker-white-color);
+  font-size: 1.5rem;
+  font-weight: 600;
   line-height: 1.5;
-  margin-bottom: 2rem;
 }
 
-.image-content img {
-  width: 400px;
-  height: auto;
+.gridContent .links {
+  display: flex;
+  justify-content: flex-start;
+  gap: 1em;
 }
 
-@media (max-width: 808px) {
-  .grid-2 {
-    display: flex;
+.gridContent .links .git {
+  font-size: 6rem;
+}
+
+@media (min-width: 768px) {
+  .gridContainer {
+    flex-direction: row;
+    gap: 3em;
+  }
+
+  .gridContainer:nth-child(even) {
+    flex-direction: row-reverse;
+    text-align: left;
+  }
+
+  .projectImageContainer {
+    /* border: 1px solid red; */
+    height: 100%;
     align-items: center;
-    flex-direction: column;
-    margin: 0 auto;
-    gap: 2rem;
+    flex: 1;
+    display: block;
+  }
+
+  .projectImageContainer img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .gridContent {
+    flex: 1;
+    /* border: 1px solid red; */
+    height: 550px;
+
   }
 }
