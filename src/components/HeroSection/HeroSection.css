@@ -3,7 +3,7 @@
   align-items: flex-start;
   gap: 2rem;
   flex-direction: column;
-  margin: 4em 1rem 9em 1rem;
+  margin: 4em auto 9em auto;
 }
 
 .hero-container h2 {

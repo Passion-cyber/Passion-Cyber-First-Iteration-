@@ -1,21 +1,22 @@
 import React from "react";
 import { Anchor, Heading } from "..";
-import profile from "../../assets/images/aboutImage.webp";
 import { technologies } from "../../ultilities";
 import "./About.css";
+const profile =
+  "https://res.cloudinary.com/dysznjd1z/image/upload/v1690358556/First-Iteration-Images/aboutImage_dgkhdj.webp";
 
 const About = () => {
   return (
     <section id="About" className="about-container">
       <Heading number={"01"} text={"About Me"} empty_div={""} />
-      <div
-        data-aos-easing="ease-in-out"
-        data-aos-duration="800"
-        data-aos="fade-up"
-        data-aos-once="true"
-        className="about-global-container"
-      >
-        <div className="content-section">
+      <div className="about-global-container">
+        <div
+          data-aos-easing="ease-in-out"
+          data-aos-duration="800"
+          data-aos="fade-up"
+          data-aos-once="true"
+          className="content-section"
+        >
           <p className="hero-description">
             Hello! My name is Ibelachi Chinedu Franklyn. Basically I have this
             passion for everything coding, and I derive joy from creating
@@ -62,7 +63,13 @@ const About = () => {
             </ul>
           </div>
         </div>
-        <div className="image-container">
+        <div
+          data-aos-easing="ease-in-out"
+          data-aos-duration="800"
+          data-aos="fade-up"
+          data-aos-once="true"
+          className="image-container"
+        >
           <div className="image">
             <img src={profile} alt="profile-display" />
           </div>

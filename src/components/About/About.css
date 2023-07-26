@@ -4,7 +4,7 @@
   align-items: flex-start;
   flex-direction: column;
   gap: 1.5rem;
-  margin: 4em 1rem 9em 1rem;
+  margin: 4em auto 9em auto;
 }
 
 .about-global-container {
