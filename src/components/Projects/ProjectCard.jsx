@@ -6,7 +6,7 @@ import "./ProjectCard.css";
 
 const ProjectCard = ({ projectNote }) => {
   const {
-    profile,
+    profileImage,
     liveLink,
     externalLink,
     featured,
@@ -17,7 +17,7 @@ const ProjectCard = ({ projectNote }) => {
   return (
     <div className="gridContainer">
       <div className="projectImageContainer">
-        <img src={profile} alt="img" />
+        <img src={profileImage} alt="img" />
       </div>
       <div className="gridContent">
         <div>

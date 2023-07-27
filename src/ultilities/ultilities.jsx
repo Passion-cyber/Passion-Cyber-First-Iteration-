@@ -1,3 +1,4 @@
+// import { profile } from "../components";
 export const navItem = [
   {
     path: "About",
@@ -83,35 +84,38 @@ export const notes = [
 
 export const projectNotes = [
   {
-    profile: "cloudinaryURL link",
+    profileImage:
+      "https://res.cloudinary.com/dysznjd1z/image/upload/v1690448293/First-Iteration-Images/firstIterationKalmlyImage_kt65pm.jpg",
     heading: "Featured Project",
     featured: "Kalmly Health",
     paragraph:
-      "A Mental Healthcare App where users get help via therapy sessions  scheduled with industry experts.",
-    externalLink: "https://github.com/ComicZone/Comic-Zone-Client",
-    liveLink: "this is the valid url link",
-    lists: ["HTML", "CSS", "React JS", "Socket.io", "NodeJs"],
-  },
-  {
-    profile: "cloudinaryURL link",
-    heading: "Featured Project",
-    featured: "Kalmly Health",
-    paragraph:
-      "A Mental Healthcare App where users get help via therapy sessions  scheduled with industry experts.",
+      "A Mental Healthcare App where users get help via therapy sessions  scheduled with industry experts.A Mental Healthcare App where users get help via therapy sessions  scheduled with industry experts.A Mental Healthcare App where users get help via therapy sessions  scheduled with industry experts.",
     externalLink: "https://github.com/ComicZone/Comic-Zone-Client",
     liveLink: "this is the valid url link",
 
     lists: ["HTML", "CSS", "React JS", "Socket.io", "NodeJs"],
   },
   {
-    profile: "cloudinaryURL link",
+    profileImage:
+      "https://res.cloudinary.com/dysznjd1z/image/upload/v1690448290/First-Iteration-Images/firstiterationComicZoneImage_zi5cuz.png",
     heading: "Featured Project",
     featured: "Kalmly Health",
     paragraph:
-      "A Mental Healthcare App where users get help via therapy sessions  scheduled with industry experts.",
+      "A Mental Healthcare App where users get help via therapy sessions  scheduled with industry experts.A Mental Healthcare App where users get help via therapy sessions  scheduled with industry experts.A Mental Healthcare App where users get help via therapy sessions  scheduled with industry experts.",
     externalLink: "https://github.com/ComicZone/Comic-Zone-Client",
     liveLink: "this is the valid url link",
 
+    lists: ["HTML", "CSS", "React JS", "Socket.io", "NodeJs"],
+  },
+  {
+    profileImage:
+      "https://res.cloudinary.com/dysznjd1z/image/upload/v1690448292/First-Iteration-Images/firstIterationspotifyImage_yqx7z1.png",
+    heading: "Featured Project",
+    featured: "Kalmly Health",
+    paragraph:
+      "A Mental Healthcare App where users get help via therapy sessions  scheduled with industry experts.A Mental Healthcare App where users get help via therapy sessions  scheduled with industry experts.A Mental Healthcare App where users get help via therapy sessions  scheduled with industry experts.",
+    externalLink: "https://github.com/ComicZone/Comic-Zone-Client",
+    liveLink: "this is the valid url link",
     lists: ["HTML", "CSS", "React JS", "Socket.io", "NodeJs"],
   },
 ];

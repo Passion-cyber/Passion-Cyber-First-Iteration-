@@ -12,7 +12,7 @@
   display: grid;
   grid-template-columns: repeat(1fr);
   width: 100%;
-  gap: 12em;
+  gap: 8em;
   margin: 0 auto;
 }
 
@@ -22,6 +22,10 @@
     max-width: 768px;
     margin: 0 auto;
     gap: 2em;
+  }
+
+  .projects-container .projects-global-container {
+    gap: 12em;
   }
 }
 
