@@ -1,4 +1,3 @@
-// import { profile } from "../components";
 export const navItem = [
   {
     path: "About",
@@ -52,33 +51,34 @@ export const technologies = [
 export const notes = [
   {
     id: "123",
-    goto: "https://spotify-clone-nine-tau.vercel.app/",
-    href: "https://github.com/Passion-cyber/Standardized-Spotify-Clone",
-    externalLink: "https://spotify-clone-nine-tau.vercel.app/",
-    title: "Standardized Spotify Clone",
+    goto: "https://stupendous-panda-719e0a.netlify.app/cinema",
+    href: "https://github.com/Passion-cyber/MovieApp",
+    externalLink: "https://stupendous-panda-719e0a.netlify.app/cinema",
+    title: "Movie App",
     description:
-      "A spotify web app for visualizing personalized Spotify data. Users are able Search, listen and as well view playlist tracks.",
-    lists: ["HTML", "CSS", "React JS"],
+      "Replicated some features and design aesthetics of the popular streaming platform (Netflix) while demonstrating my skills in front-end web development.",
+    lists: ["HTML", "CSS", "JavaScript(ES6+)"],
   },
   {
     id: "234",
-    goto: "https://kalmly.vercel.app/",
-    href: "https://github.com/learnable-2022/KMH-FE",
-    externalLink: "https://kalmly.vercel.app/",
-    title: "Kalmly Health",
+    goto: "https://github.com/Passion-cyber/ReactJs-LeaderboardScoresheet-Ap",
+    href: "https://github.com/Passion-cyber/ReactJs-LeaderboardScoresheet-Ap",
+    externalLink:
+      "https://github.com/Passion-cyber/ReactJs-LeaderboardScoresheet-Ap",
+    title: "LeaderBoard App",
     description:
-      "A Mental Healthcare App where users get help via therapy sessions  scheduled with industry experts.",
-    lists: ["HTML", "CSS", "React JS", "Socket.io", "NodeJs"],
+      "A dynamic and user-friendly leaderboard app where users can view and compare scores or rankings in a visually appealing way.",
+    lists: ["HTML", "CSS", "ReactJS"],
   },
   {
     id: "567",
-    goto: "https://github.com/ComicZone/Comic-Zone-Client",
-    href: "https://github.com/ComicZone/Comic-Zone-Client",
-    externalLink: "https://github.com/ComicZone/Comic-Zone-Client",
-    title: "COMIC ZONE",
+    goto: "https://github.com/Passion-cyber/emoji-search-app",
+    href: "https://github.com/Passion-cyber/emoji-search-app",
+    externalLink: "https://github.com/Passion-cyber/emoji-search-app",
+    title: "Emoji Search App",
     description:
-      "An online Comic Library where users view, download, read and purchase a wide range of Comic books. ",
-    lists: ["HTML", "CSS", "React JS", "Socket.io", "NodeJs"],
+      "An engaging Emoji Search App, designed to provide users with a seamless and intuitive way to search for emojis based on keywords and categories.",
+    lists: ["HTML", "CSS", "ReactJs"],
   },
 ];
 
@@ -89,7 +89,7 @@ export const projectNotes = [
     heading: "Featured Project",
     featured: "Kalmly Health",
     paragraph:
-      "An industry-renowned Mental Health App offering users expert therapy sessions to address their needs. Access the care you deserve, scheduled with trusted professionals, all through this transformative Mental Health App.",
+      "A Mental Health care App that offers users expert therapy sessions to address their mental Health Care needs. User are able to scheduled a therapy session with trusted professionals, all through this transformative Mental Health App.",
     externalLink: "https://github.com/learnable-2022/KMH-FE",
     liveLink: "https://kalmly.vercel.app/",
 
@@ -123,6 +123,6 @@ export const projectNotes = [
       "Spotify web app for visualizing personalized Spotify data. Search and listen listen to songs and as well view your playlist tracks, and a detailed audio information about each track.",
     externalLink: "https://github.com/Passion-cyber/Standardized-Spotify-Clone",
     liveLink: "https://spotify-clone-nine-tau.vercel.app/",
-    lists: ["HTML", "CSS", "React JS"],
+    lists: ["HTML", "CSS", "React JS", "SASS/SCSS"],
   },
 ];

@@ -22,6 +22,11 @@
   position: relative;
   display: flex;
   align-items: flex-start;
+  overflow-x: auto;
+}
+
+.left-experience .btn-container::-webkit-scrollbar {
+  height: 5px;
 }
 
 .experience-global-container .left-experience {
@@ -142,6 +147,7 @@
     display: flex;
     align-items: flex-start;
     flex-direction: column;
+    overflow-x: hidden;
   }
 }
 
@@ -150,34 +156,3 @@
     margin: 4em auto 9em auto;
   }
 }
-
-/* 
-.experience-container {
-  position: relative;
-  max-width: 420px;
-  padding: 3rem 0;
-}
-
-.experience-global-container {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  gap: 2rem;
-  flex-direction: column;
-}
-
-.left-experience .btn-container {
-  padding: 0 3rem;
-  position: relative;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  max-width: calc(100vw - 3rem);
-  overflow-x: auto;
-}
-
-.left-experience .btn-container::-webkit-scrollbar {
-  height: 5px;
-}
-*/
