@@ -4,9 +4,9 @@ import "./Projects.css";
 
 const Projects = () => {
   return (
-    <section className="projects-container">
+    <section className="projectsContainer">
       <Heading number={"03"} text={"Projects I've Worked on"} />
-      <div className="projects-global-container">
+      <div className="projectsGlobalContainer">
         {projectNotes.map((projectNote, index) => {
           return <ProjectCard projectNote={projectNote} key={index} />;
         })}

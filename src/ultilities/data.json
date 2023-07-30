@@ -1,9 +1,9 @@
 [
     {
         "order": 1,
-        "heading": "Web Development Intern",
+        "heading": "Front-end Engineering Intern",
         "link": " @ Genesy Upskill Community",
-        "communityLink": "@ Upskill Community",
+        "communityLink": "https://twitter.com/upskill_com",
         "text": "October 2021 - July 2022",
         "button": "Upskill",
         "lists": [
@@ -14,29 +14,42 @@
         ]
     },
     {
-        "order": 2,
-        "heading": "Front-end Engineering Intern ",
-        "link": " @ Genesys Tech Hub",
-        "communityLink": "@ Upskill Community",
-        "text": "November 2022 - July 2023",
+        "order": 3,
+        "heading": "Front-end Engineering Intern",
+        "link": " @ Codename: Learnable-22",
+        "communityLink": "https://www.genesystechhub.com/learnable",
+        "text": "Febuary 2023 - July 2023",
         "button": "Learnable",
         "lists": [
+            "Interning here equipped me with a deep understanding of agile methodologies, various front-end frameworks, and API integration, enabling me to deliver high-quality, user-centric solutions in a collaborative team environment.",
             "Developed responsive web pages and optimized it's user experience across different devices, enhancing accessibility and usage using HTML, CSS, and ReactJS.",
-            "Worked closely with the back-end development team to design and consume REST APIs, ensuring seamless data retrieval and synchronization between the app's front-end and back-end components..",
-            "Interning here equipped me with a deep understanding of agile methodologies, various front-end frameworks, and API integration, enabling me to deliver high-quality, user-centric solutions in a collaborative team environment."
+            "Worked closely with the back-end development team to design and consume REST APIs, ensuring seamless data retrieval and synchronization between the app's front-end and back-end components"
         ]
     },
     {
-        "order": 3,
-        "heading": "Web Dev Facilitator",
-        "link": "@ Genesys Upskill Community",
-        "communityLink": "@ Upskill Community",
-        "text": "Febuary 2023 - July 2023",
+        "order": 2,
+        "heading": "Junior Front-end Engineer",
+        "link": " @ Genesys Tech Hub",
+        "communityLink": "https://www.genesystechhub.com/",
+        "text": "October 2022 - present",
         "button": "Genesys",
         "lists": [
-            "Collaborated with a team to design and refine a comprehensive curriculum tailored to the needs of the mentees. This curriculum covered essential frontend web development technologies such as HTML, CSS, JavaScript, responsive design, and basic interaction with frontend frameworks.",
-            "To simulate real-world experiences, I led my mentees in developing a collaborative frontend project. This project involved creating a responsive website for a Real estate website. It allowed the mentees to work in a team, understand version control with Git, and experience the challenges and joys of a real client project.",
-            "Recognizing the diverse backgrounds and learning paces of my mentees, I offered personalized one-on-one sessions to address their queries, provide code reviews, and offer constructive feedback on their projects."
+            "Collaborated with teams of software developers to build modern and responsive full stack software applications using the tools: JavaScript, React, Node, Express, MongoDB, HTML, CSS.",
+            "Conducted thorough testing and debugging to ensure high-quality code and optimal performance for a for a full-stack web applications",
+            "Proactively identified and resolved technical issues and bugs, minimizing project delays and improving overall efficiency."
+        ]
+    },
+    {
+        "order": 4,
+        "heading": "Learning - Facilitator",
+        "link": " @ Genesys CodeVille",
+        "communityLink": "https://twitter.com/_codeville",
+        "text": "july 2023 - Present (Volunteer Experience)",
+        "button": "CodeVille",
+        "lists": [
+            "As a passionate tech enthusiast and advocate for nurturing young talents, I had the incredible opportunity to participate in a rewarding program aimed at introducing children to the fascinating world of technology.",
+            "During this program, I served as a facilitator, guiding and inspiring this group of bright young minds who were just beginning their journey in the realm of tech.",
+            " My primary role was to teach the fundamentals of web development, focusing on HTML, CSS, and JavaScript. It was truly fulfilling to witness the enthusiasm and curiosity in the eyes of these young learners as they absorbed the knowledge I shared with them."
         ]
     }
 ]

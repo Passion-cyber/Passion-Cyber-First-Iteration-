@@ -1,5 +1,5 @@
 import React from "react";
-import { Anchor, Heading,profile } from "..";
+import { Anchor, Heading, profile } from "..";
 import { technologies } from "../../ultilities";
 import "./About.css";
 
@@ -16,34 +16,29 @@ const About = () => {
           className="content-section"
         >
           <p className="hero-description">
-            Hello! My name is Ibelachi Chinedu Franklyn. Basically I have this
-            passion for everything coding, and I derive joy from creating
-            beautiful looking web pages and bringing beautiful designs to life.
-            My interest in web development started back in 2018 when I built my
-            first web page with HTML and CSS which opened my eyes to a greater
-            world of endless possibilities.
+            Hello! My name is Ibelachi Chinedu Franklyn. I derive joy from
+            creating beautiful looking web pages and bringing beautiful designs
+            to life. My interest in web development started back in 2020 when I
+            built my first web page with HTML and CSS which opened my eyes to a
+            greater world of endless possibilities.
           </p>
           <p className="hero-description">
-            Fast-forward to today, and I’ve had the privilege of interning at
-            <Anchor
+            Fast-forward to today, and I’ve had the privilege of interning at <Anchor
               href="https://www.genesystechhub.com/learnable"
               target="_blank"
               rel="noreferrer"
               children={"Learnable 22"}
-            />
-            under
-            <Anchor
+            /> under <Anchor
               href="https://www.genesystechhub.com/"
               target="_blank"
               rel="noreferrer"
               children={"Genesys"}
-            />
-            Tech Hub Enugu, one of the most prominent start-ups in the South
+            /> Tech Hub Enugu, one of the most prominent start-ups in the South
             east Nigeria, a huge corporation, focused on impacting in young
             techies and entrepreneurs. Although not working with any Tech
-            company at the moment my main focus these days is building
-            accessible, inclusive products and digital experiences for a variety
-            of users.
+            company at the moment, but I'm consistently driven to explore fresh
+            opportunities that are challenging in order craft user-friendly,
+            visually captivating solutions to real-life issues."
           </p>
 
           <span className="hero-description">

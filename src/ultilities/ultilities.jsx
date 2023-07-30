@@ -89,33 +89,40 @@ export const projectNotes = [
     heading: "Featured Project",
     featured: "Kalmly Health",
     paragraph:
-      "A Mental Healthcare App where users get help via therapy sessions  scheduled with industry experts.A Mental Healthcare App where users get help via therapy sessions  scheduled with industry experts.A Mental Healthcare App where users get help via therapy sessions  scheduled with industry experts.",
-    externalLink: "https://github.com/ComicZone/Comic-Zone-Client",
-    liveLink: "this is the valid url link",
+      "An industry-renowned Mental Health App offering users expert therapy sessions to address their needs. Access the care you deserve, scheduled with trusted professionals, all through this transformative Mental Health App.",
+    externalLink: "https://github.com/learnable-2022/KMH-FE",
+    liveLink: "https://kalmly.vercel.app/",
 
-    lists: ["HTML", "CSS", "React JS", "Socket.io", "NodeJs"],
+    lists: [
+      "HTML",
+      "CSS",
+      "React JS",
+      "Socket.io",
+      "NodeJs",
+      "Styled Components",
+    ],
   },
   {
     profileImage:
       "https://res.cloudinary.com/dysznjd1z/image/upload/v1690448290/First-Iteration-Images/firstiterationComicZoneImage_zi5cuz.png",
     heading: "Featured Project",
-    featured: "Kalmly Health",
+    featured: "Comic Zone",
     paragraph:
-      "A Mental Healthcare App where users get help via therapy sessions  scheduled with industry experts.A Mental Healthcare App where users get help via therapy sessions  scheduled with industry experts.A Mental Healthcare App where users get help via therapy sessions  scheduled with industry experts.",
+      "An interactive Comic Library that caters to comic enthusiasts, providing a platform for reading, viewing, sharing, and downloading a vast collection of comic books.",
     externalLink: "https://github.com/ComicZone/Comic-Zone-Client",
-    liveLink: "this is the valid url link",
+    liveLink: "https://github.com/ComicZone/Comic-Zone-Client",
 
-    lists: ["HTML", "CSS", "React JS", "Socket.io", "NodeJs"],
+    lists: ["HTML", "CSS", "React JS", "Tailwind CSS", "Express"],
   },
   {
     profileImage:
       "https://res.cloudinary.com/dysznjd1z/image/upload/v1690448292/First-Iteration-Images/firstIterationspotifyImage_yqx7z1.png",
     heading: "Featured Project",
-    featured: "Kalmly Health",
+    featured: "Spotify Music",
     paragraph:
-      "A Mental Healthcare App where users get help via therapy sessions  scheduled with industry experts.A Mental Healthcare App where users get help via therapy sessions  scheduled with industry experts.A Mental Healthcare App where users get help via therapy sessions  scheduled with industry experts.",
-    externalLink: "https://github.com/ComicZone/Comic-Zone-Client",
-    liveLink: "this is the valid url link",
-    lists: ["HTML", "CSS", "React JS", "Socket.io", "NodeJs"],
+      "Spotify web app for visualizing personalized Spotify data. Search and listen listen to songs and as well view your playlist tracks, and a detailed audio information about each track.",
+    externalLink: "https://github.com/Passion-cyber/Standardized-Spotify-Clone",
+    liveLink: "https://spotify-clone-nine-tau.vercel.app/",
+    lists: ["HTML", "CSS", "React JS"],
   },
 ];

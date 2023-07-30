@@ -8,6 +8,7 @@
   align-items: center;
   z-index: 99;
   overflow-x: hidden;
+  box-shadow: var(--box-shadow-color);
 }
 
 .header-wrapper {
@@ -52,7 +53,7 @@
 
 .navigation a span {
   color: var(--dark-white-color);
-} 
+}
 
 .toggle-menu {
   width: 2rem;

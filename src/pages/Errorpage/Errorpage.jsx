@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { Button } from "../../components";
-import ErrorImage from "../../assets/images/404.svg";
+import ErrorImage from "../../assets/Icons/404.svg";
 import "./Errorpage.css";
 
 const Errorpage = () => {

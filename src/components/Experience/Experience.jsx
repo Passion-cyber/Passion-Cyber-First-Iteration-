@@ -43,8 +43,7 @@ const Experience = () => {
         >
           <div className="individual-exps">
             <h2>
-              {heading}
-              <span>
+              {heading} <span>
                 <Anchor
                   className="git"
                   href={communityLink}

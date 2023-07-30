@@ -1,5 +1,5 @@
 import "./HeroSection.css";
-import { resumeLink, Button, Anchor } from "../../components";
+import { resumeLink, Button } from "../../components";
 
 const HeroSection = () => {
   const customStyles = {
@@ -17,22 +17,13 @@ const HeroSection = () => {
     >
       <h2 className="intro">Hey, I'm</h2>
       <h1>
-        Ibelachi Chinedu. <br /> <span>I build things for the web.</span>
+        Ibelachi Chinedu. <br /> <span>I Just want to build stuffs.</span>
       </h1>
       <p className="hero-description">
-        A skilled Software Developer specializating in crafting outstanding
-        digital experiences and creating cross-functional web applications. With
+        A skilled Software Developer specializing in crafting outstanding
+        digital experiences and building cross-functional web applications. With
         a passion for frontend development, I take pride in bringing innovative
-        designs to life and delivering seamless user experiences. Explore my{" "}
-        <Anchor
-          href="https://github.com/Passion-cyber"
-          target="_blank"
-          rel="noreferrer"
-          className="upstatement"
-          children={"projects"}
-        />{" "}
-        to witness how I combine creativity and technical expertise to build
-        captivating web solutions that leave a lasting impression.
+        designs to life and delivering seamless user experiences.
       </p>
       <a href={resumeLink} target="_blank" rel="noreferrer">
         <Button style={customStyles} text="Check Out My Resume!" />
@@ -42,3 +33,6 @@ const HeroSection = () => {
 };
 
 export default HeroSection;
+// Explore my
+// projects to witness how I combine creativity and technical expertise to
+// build captivating web solutions that leave a lasting impression.

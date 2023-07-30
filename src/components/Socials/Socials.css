@@ -1,4 +1,4 @@
-.left-socials {
+.leftSocials {
   position: fixed;
   display: flex;
   flex-direction: column;
@@ -8,7 +8,7 @@
   top: 310px;
 }
 
-.left-socials a {
+.leftSocials a {
   display: block;
   font-size: 2rem;
   text-decoration: none;
@@ -16,12 +16,12 @@
   transition: all 0.2s ease-in;
 }
 
-.left-socials a:hover {
+.leftSocials a:hover {
   color: var(--secondary-color);
   transform: translateY(-7px);
 }
 
-.left-socials > div {
+.leftSocials > div {
   background-color: var(--darker-white-color);
   width: 1px;
   height: 18000px;
@@ -59,7 +59,7 @@
 }
 
 @media (max-width: 900px) {
-  .left-socials,
+  .leftSocials,
   .right-socials {
     display: none;
   }

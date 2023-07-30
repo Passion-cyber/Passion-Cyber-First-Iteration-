@@ -7,13 +7,11 @@ import "aos/dist/aos.css";
 import {
   Navbar,
   Footer,
-  RightSocials,
-  LeftSocials,
   Homepage,
   Errorpage,
 } from "./components";
 
-function App() {
+const App = () => {
   useEffect(() => {
     AOS.init({ once: true });
 
@@ -25,15 +23,12 @@ function App() {
     <>
       <Router>
         <Navbar />
-        <LeftSocials />
         <div className="global-container">
           <Routes>
             <Route path="/" element={<Homepage />} />
             <Route path="*" element={<Errorpage />} />
           </Routes>
         </div>
-        <RightSocials />
-
         <Footer />
       </Router>
     </>

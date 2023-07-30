@@ -76,19 +76,6 @@
   transition: all 0.2s ease-in;
 }
 
-.image-container .image::after {
-  position: absolute;
-  content: "";
-  left: 15%;
-  top: 15%;
-  height: 300px;
-  width: 300px;
-  background-color: transparent;
-  border: 3px solid var(--secondary-color);
-  border-radius: 10px;
-  z-index: -1;
-  transition: all 0.2s ease-in;
-}
 
 .image-container:hover img {
   filter: none;
@@ -121,6 +108,20 @@
     max-width: 768px;
     margin: 0 auto;
     gap: 2em;
+  }
+
+  .image-container .image::after {
+    position: absolute;
+    content: "";
+    left: 15%;
+    top: 15%;
+    height: 300px;
+    width: 300px;
+    background-color: transparent;
+    border: 3px solid var(--secondary-color);
+    border-radius: 10px;
+    z-index: -1;
+    transition: all 0.2s ease-in;
   }
 
   .about-global-container {
