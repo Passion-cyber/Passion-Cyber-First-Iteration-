@@ -16,11 +16,11 @@ const Navbar = () => {
       ></div>
       <div className="header-wrapper">
         <div
-          data-aos-easing="ease-in-out"
-          data-aos-duration="1000"
-          data-aos="fade-up"
-          data-aos-delay="300"
-          data-aos-once="true"
+          // data-aos-easing="ease-in-out"
+          // data-aos-duration="1000"
+          // data-aos="fade-up"
+          // data-aos-delay="300"
+          // data-aos-once="true"
           className="logo"
         >
           <Link to="/">
@@ -28,10 +28,10 @@ const Navbar = () => {
           </Link>
         </div>
         <nav
-          data-aos-easing="ease-in-out"
-          data-aos-duration="500"
-          data-aos="fade-up"
-          data-aos-once="true"
+          // data-aos-easing="ease-in-out"
+          // data-aos-duration="500"
+          // data-aos="fade-up-right"
+          // data-aos-once="true"
           className={`navigation ${navopen && "mobile"}`}
         >
           {navItem.map(({ path, number, text }, index) => (
@@ -43,11 +43,11 @@ const Navbar = () => {
         </nav>
 
         <div
-          data-aos-easing="ease-in-out"
-          data-aos-duration="1000"
-          data-aos="fade-up"
-          data-aos-delay="300"
-          data-aos-once="true"
+          // data-aos-easing="ease-in-out"
+          // data-aos-duration="1000"
+          // data-aos="fade-up"
+          // data-aos-delay="300"
+          // data-aos-once="true"
           className="toggle-menu"
           onClick={() => setNavOpen(!navopen)}
         >
