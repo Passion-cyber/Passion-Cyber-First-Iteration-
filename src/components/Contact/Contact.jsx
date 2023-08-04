@@ -36,7 +36,7 @@ const Contact = () => {
           data-aos-duration="800"
           data-aos="fade-up"
           data-aos-once="true"
-          href="mailto:chineduibelachi@gmail.com"
+          href="mailto:chineduibelachiofficial@gmail.com"
           target="_blank"
           rel="noopener noreferrer"
           className="contact-anchor"

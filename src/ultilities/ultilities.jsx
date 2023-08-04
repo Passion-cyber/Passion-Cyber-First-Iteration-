@@ -21,6 +21,7 @@ export const navItem = [
   },
 ];
 
+
 export const technologies = [
   {
     text: "JavaScript (ES6)",
