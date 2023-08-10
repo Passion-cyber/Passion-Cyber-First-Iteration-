@@ -21,7 +21,6 @@ export const navItem = [
   },
 ];
 
-
 export const technologies = [
   {
     text: "JavaScript (ES6)",
@@ -30,7 +29,7 @@ export const technologies = [
     text: "ReactJs",
   },
   {
-    text: "Git & Git-Hub",
+    text: "React Native",
   },
   {
     text: "TypeScript",
