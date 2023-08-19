@@ -7,10 +7,10 @@
         "text": "October 2020 - July 2021",
         "button": "Upskill",
         "lists": [
-            "Collaborated with a cross-functional team of designers, back-end developers, and a product manager to create interactive features and functionality, enhancing the overall usability and performance of a fintech App.",
+            "Collaborated with a cross-functional team of designers, back-end developers, and a product manager to create interactive features and functionalities, enhancing the overall usability and performance of a fintech App.",
             "Optimized the front-end codebase by refactoring and implementing efficient coding practices, resulting in a 20% improvement in page load times and overall application performance.",
-            "Successfully integrated third-party APIs and libraries, such as payment gateways and data visualization tools, into the fintech app, expanding its functionality and enhancing user interactions.",
-            "Provide leadership within the development department through close collaboration, knowledge shares, and mentorship"
+            "Successfully integrated third-party APIs and libraries, such as the paystack payment gateway and data visualization tools, into the fintech app, expanding its functionality and enhancing user interactions.",
+            "As the team lead on this project i Provided leadership within the frontend development team through close collaboration and knowledge sharing"
         ]
     },
     {
@@ -21,14 +21,14 @@
         "text": "November 2021 - July 2022",
         "button": "Learnable",
         "lists": [
-            "Interning here equipped me with a deep understanding of agile methodologies, various front-end frameworks, and API integration, enabling me to deliver high-quality, user-centric solutions in a collaborative team environment.",
-            "Developed responsive web pages and optimized it's user experience across different devices, enhancing accessibility and usage using HTML, CSS, and ReactJS.",
+            "Working here equipped me with a deep understanding of agile methodologies, various front-end frameworks, and API integration, enabling me to deliver high-quality, user-centric solutions in a collaborative team environment.",
+            "Developed responsive web pages and optimized it's user experience across different devices, enhancing accessibility and usage using HTML, CSS, JavaScript, ReactJS, Tailwind CSS and TypeScript.",
             "Worked closely with the back-end development team to design and consume REST APIs, ensuring seamless data retrieval and synchronization between the app's front-end and back-end components"
         ]
     },
     {
         "order": 2,
-        "heading": "Software Engineer (Front-end)",
+        "heading": "Front-end Engineer",
         "link": " @ Genesys Tech Hub",
         "communityLink": "https://www.genesystechhub.com/",
         "text": "October 2022 - present",
@@ -47,9 +47,9 @@
         "text": "july 2023 - Present (Volunteer Experience)",
         "button": "CodeVille",
         "lists": [
-            "As a passionate tech enthusiast and advocate for nurturing young talents, I had the incredible opportunity to participate in a rewarding program aimed at introducing children to the fascinating world of technology.",
-            "During this program, I served as a facilitator, guiding and inspiring this group of bright young minds who were just beginning their journey in the realm of tech.",
-            "My primary role was to teach the fundamentals of web development, focusing on HTML, CSS, and JavaScript. It was truly fulfilling to witness the enthusiasm and curiosity in the eyes of these young learners as they absorbed the knowledge I shared with them."
+            "As a passionate tech enthusiast and advocate for nurturing young talents, I'm having the incredible opportunity to participate in a rewarding program aimed at introducing children to the fascinating world of technology.",
+            "Currently, I'm serveing as a learning facilitator, guiding and inspiring this group of bright young minds who are just beginning their journey in the world of tech.",
+            "My primary role here is to teach these amazing kids the fundamentals of web development, focusing on HTML, CSS, and JavaScript. It is truly fulfilling to witness the enthusiasm and curiosity in the eyes of these young learners as they absorbe the knowledge I share with them on daily basis."
         ]
     }
 ]
