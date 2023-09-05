@@ -31,7 +31,7 @@ const ProjectCard = ({ projectNote }) => {
               <a
                 onClick={() => setNavigate(false)}
                 className="git"
-                href={externalLink}
+                href={liveLink}
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -40,7 +40,7 @@ const ProjectCard = ({ projectNote }) => {
               <a
                 onClick={() => setNavigate(false)}
                 className="git"
-                href={liveLink}
+                href={externalLink}
                 target="_blank"
                 rel="noopener noreferrer"
               >

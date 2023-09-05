@@ -61,10 +61,10 @@ export const notes = [
   },
   {
     id: "234",
-    goto: "https://github.com/Passion-cyber/ReactJs-LeaderboardScoresheet-Ap",
+    goto: "https://passion-cyber.github.io/ReactJs-LeaderboardScoresheet-Ap/",
     href: "https://github.com/Passion-cyber/ReactJs-LeaderboardScoresheet-Ap",
     externalLink:
-      "https://github.com/Passion-cyber/ReactJs-LeaderboardScoresheet-Ap",
+      "https://passion-cyber.github.io/ReactJs-LeaderboardScoresheet-Ap/",
     title: "LeaderBoard App",
     description:
       "A dynamic and user-friendly leaderboard app where users can view and compare scores or rankings in a visually appealing way.",
@@ -72,9 +72,9 @@ export const notes = [
   },
   {
     id: "567",
-    goto: "https://github.com/Passion-cyber/emoji-search-app",
+    goto: "http://Passion-cyber.github.io/emoji-search-app",
     href: "https://github.com/Passion-cyber/emoji-search-app",
-    externalLink: "https://github.com/Passion-cyber/emoji-search-app",
+    externalLink: "http://Passion-cyber.github.io/emoji-search-app",
     title: "Emoji Search App",
     description:
       "An engaging Emoji Search App, designed to provide users with a seamless and intuitive way to search for emojis based on keywords and categories.",
