@@ -3,7 +3,6 @@
   align-items: center;
   justify-content: center;
   text-align: center;
-  flex-wrap: wrap;
   gap: 4em;
   height: 100%;
   padding: 4em;
@@ -33,4 +32,10 @@
   font-size: 42px;
   line-height: 120%;
   max-width: 685px;
+}
+
+@media (max-width: 768px) {
+  .errorContainer {
+    flex-direction: column;
+  }
 }

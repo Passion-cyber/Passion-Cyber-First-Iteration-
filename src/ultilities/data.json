@@ -4,7 +4,7 @@
         "heading": "Front-end Engineering Intern",
         "link": " @ Genesys Upskill Community",
         "communityLink": "https://twitter.com/upskill_com",
-        "text": "October 2020 - July 2021",
+        "text": "Febuary 2021 - July 2022",
         "button": "Upskill",
         "lists": [
             "Collaborated with a cross-functional team of designers, back-end developers, and a product manager to create interactive features and functionalities, enhancing the overall usability and performance of a fintech App.",
@@ -14,27 +14,27 @@
         ]
     },
     {
-        "order": 3,
-        "heading": "Front-end Engineer",
-        "link": "Codename: Learnable",
+        "order": 2,
+        "heading": "Front-end Engineering Intern",
+        "link": "Codename: Learnable-22",
         "communityLink": "https://www.genesystechhub.com/learnable",
-        "text": "November 2021 - July 2022",
+        "text": "November 2022 - July 2023",
         "button": "Learnable",
         "lists": [
-            "Working here equipped me with a deep understanding of agile methodologies, various front-end frameworks, and API integration, enabling me to deliver high-quality, user-centric solutions in a collaborative team environment.",
+            "Interning here equipped me with a deep understanding of agile methodologies, various front-end frameworks, and API integration, enabling me to deliver high-quality, user-centric solutions in a collaborative team environment.",
             "Developed responsive web pages and optimized it's user experience across different devices, enhancing accessibility and usage using HTML, CSS, JavaScript, ReactJS, Tailwind CSS and TypeScript.",
             "Worked closely with the back-end development team to design and consume REST APIs, ensuring seamless data retrieval and synchronization between the app's front-end and back-end components"
         ]
     },
     {
-        "order": 2,
-        "heading": "Front-end Engineer",
-        "link": " @ Genesys Tech Hub",
-        "communityLink": "https://www.genesystechhub.com/",
-        "text": "October 2022 - present",
-        "button": "Genesys",
+        "order": 3,
+        "heading": "Frontend developer",
+        "link": " @ Enugu State Tech Hub",
+        "communityLink": "https://www.enugutechhub.en.gov.ng/",
+        "text": "August 2023 - Present",
+        "button": "ESTH",
         "lists": [
-            "Collaborated with a team of software developers to build modern and responsive full stack software applications using tools like: JavaScript, React, Node, Express, MongoDB, HTML, TypeScript.",
+            "Collaborated with a team of software developers to build modern and responsive full stack software applications for the Enugu state Government using tools like: JavaScript, ReactJs, Node, Express, Tailwind CSS, TypeScript.",
             "Conducted thorough testing and debugging to ensure high-quality code and optimal performance for a for a full-stack web application.",
             "Proactively identified and resolved technical issues and bugs, minimizing project delays and improving overall efficiency."
         ]

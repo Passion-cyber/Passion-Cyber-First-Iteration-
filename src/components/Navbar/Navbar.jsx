@@ -24,7 +24,7 @@ const Navbar = () => {
           className="logo"
         >
           <Link to="/">
-            Passion-<span>Cyber</span>
+            Ibelachi Chinedu
           </Link>
         </div>
         <nav

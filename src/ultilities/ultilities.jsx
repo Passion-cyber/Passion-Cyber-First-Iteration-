@@ -29,7 +29,7 @@ export const technologies = [
     text: "ReactJs",
   },
   {
-    text: "React Native",
+    text: "Web Sockets",
   },
   {
     text: "TypeScript",
@@ -85,11 +85,27 @@ export const notes = [
 export const projectNotes = [
   {
     profileImage:
+      "https://res.cloudinary.com/dysznjd1z/image/upload/v1698068941/First-Iteration-Images/enuguTechHub_bohqp4.png",
+    heading: "Featured Project",
+    featured: "E-Governance Platform",
+    paragraph:
+      "A collection of Enugu State government's  Ministries, Departments and Agencies (MDA’s). This project aimed to provide the public with convenient and efficient access to a wide range of government services offered by these MDA’s, thereby enhancing transparency, accessibility, and overall citizen engagement.",
+    externalLink: "https://enugustate.gov.ng/",
+    liveLink: "https://enugustate.gov.ng/",
+
+    lists: [
+      "ReactJs",
+      "TypeScript",
+      "Tailwind CSS",
+    ],
+  },
+  {
+    profileImage:
       "https://res.cloudinary.com/dysznjd1z/image/upload/v1690448293/First-Iteration-Images/firstIterationKalmlyImage_kt65pm.jpg",
     heading: "Featured Project",
     featured: "Kalmly Health",
     paragraph:
-      "A Mental Health care App that offers users expert therapy sessions to address their mental Health Care needs. User are able to scheduled a therapy session with trusted professionals, all through this transformative Mental Health App.",
+      "A Mental Health care app that offers users, expert therapy sessions to address their mental health care needs. Users are able to book and scheduled a therapy session and communicate with a professional therapist of their choice on the app.",
     externalLink: "https://github.com/learnable-2022/KMH-FE",
     liveLink: "https://kalmly.vercel.app/",
 
